@@ -120,65 +120,66 @@ const STADIUMS = [
 
 const TRANSLATIONS = {
   en: {
-    navHome: "Home", navSchedule: "Schedule", navPredictor: "Predictor", navAwards: "Live", navStadiums: "Stadiums",
-    heroEyebrow: "FIFA World Cup 2026", heroTitle: "Every group-stage kick-off, in your time.",
-    heroText: "A fast offline-ready hub for fixtures, local kick-off times, live group tables, and knockout qualification scenarios.",
-    viewSchedule: "View schedule", openPredictor: "Open predictor", openingMatch: "Opening match",
+    navHome: "Home", navSchedule: "Schedule", navLive: "Live", navStadiums: "Stadiums",
+    heroEyebrow: "FIFA World Cup 2026", heroTitle: "Every kick-off, in your local time.",
+    heroText: "A fast, offline-ready hub for fixtures, local kick-off times, live scores, official standings, and tournament statistics.",
+    viewSchedule: "View schedule", openLive: "Live Center", openingMatch: "Opening match",
     days: "Days", hours: "Hours", minutes: "Minutes", seconds: "Seconds",
-    teams: "Teams", groups: "Groups", groupMatches: "Group matches", hostCities: "Host cities",
-    scheduleEyebrow: "Fixture planner", scheduleTitle: "Group-stage schedule", timezone: "Timezone", timeFormat: "Time format", time12: "12-hour", time24: "24-hour", filterGroup: "Group",
-    predictorEyebrow: "Scenario engine", predictorTitle: "Group-stage predictor", sampleScores: "Sample scores", resetScores: "Reset",
-    autoSave: "Scores auto-save on this device.", qualificationRule: "Top two in each group plus the eight best third-place teams advance.",
+    teams: "Teams", groups: "Groups", groupMatches: "Matches", hostCities: "Host cities",
+    scheduleEyebrow: "Fixture planner", scheduleTitle: "Tournament Schedule", timezone: "Timezone", timeFormat: "Time format", time12: "12-hour", time24: "24-hour", filterGroup: "Group",
+    qualificationRule: "The eight best third-place teams advance to the Round of 32.",
     thirdPlaceTitle: "Best third-place race", rank: "Rank", team: "Team", group: "Group",
-    awardsEyebrow: "Official live center", awardsTitle: "Scores & awards", refreshNow: "Refresh", officialFifa: "Official FIFA",
-    connecting: "Connecting to official feed", liveMatch: "Live match", currentScores: "Current scores", matchResults: "Match results",
-    status: "Status", officialNotes: "Official feed notes", feedReady: "Official feed connected", feedFallback: "Official feed not connected",
-    feedFallbackNote: "Connect an official FIFA feed URL via CI/CD to enable real-time records.",
+    awardsEyebrow: "Official live center", awardsTitle: "Scores & Standings", refreshNow: "Refresh",
+    connecting: "Connecting to live feed", liveMatch: "Live match", currentScores: "Current scores", matchResults: "Match results",
+    status: "Status", officialNotes: "Live feed notes", feedReady: "Feed connected", feedFallback: "Feed not connected",
     goldenBoot: "Golden Boot", topScorer: "Top scorer", playmaker: "Playmaker", topAssists: "Top assists", motmRace: "Man of the Match", mostMotm: "Most awards",
-    stadiumsEyebrow: "Host cities", stadiumsTitle: "Stadium guide", footerNote: "Static vanilla PWA. No ads, no tracking, no backend.",
-    allGroups: "All groups", match: "Match", local: "local", capacity: "Capacity", online: "Online", offline: "Offline ready"
+    stadiumsEyebrow: "Host cities", stadiumsTitle: "Stadium guide", footerNote: "Static CI/CD PWA. No ads, no backend servers.",
+    allGroups: "All groups", match: "Match", local: "local", capacity: "Capacity", online: "Online", offline: "Offline ready",
+    matchCenter: "Match Center", standings: "Standings", squads: "Squads", standingsNote: "These tables update automatically based on official match results.", squadsNote: "Official 26-man tournament rosters.",
+    clickMatchDetails: "Click a match to view lineups & details", startingXi: "Starting XI", subs: "Substitutes"
   },
   es: {
-    navHome: "Inicio", navSchedule: "Calendario", navPredictor: "Predictor", navAwards: "Vivo", navStadiums: "Sedes",
+    navHome: "Inicio", navSchedule: "Calendario", navLive: "Vivo", navStadiums: "Sedes",
     heroEyebrow: "Copa Mundial 2026", heroTitle: "Cada partido, en tu horario.",
-    heroText: "Un hub offline para calendario, horarios locales, tablas vivas y escenarios de clasificacion.",
-    viewSchedule: "Ver calendario", openPredictor: "Abrir predictor", openingMatch: "Partido inaugural",
+    heroText: "Un hub offline para calendario, horarios locales, marcadores en vivo, posiciones oficiales y estadisticas.",
+    viewSchedule: "Ver calendario", openLive: "Centro en Vivo", openingMatch: "Partido inaugural",
     days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos",
-    teams: "Equipos", groups: "Grupos", groupMatches: "Partidos de grupos", hostCities: "Ciudades sede",
-    scheduleEyebrow: "Planificador", scheduleTitle: "Calendario de grupos", timezone: "Zona horaria", timeFormat: "Formato", time12: "12 horas", time24: "24 horas", filterGroup: "Grupo",
-    predictorEyebrow: "Motor de escenarios", predictorTitle: "Predictor de grupos", sampleScores: "Resultados demo", resetScores: "Reiniciar",
-    autoSave: "Los resultados se guardan en este dispositivo.", qualificationRule: "Avanzan los dos primeros de cada grupo y los ocho mejores terceros.",
-    thirdPlaceTitle: "Carrera de mejores terceros", rank: "Pos.", team: "Equipo", group: "Grupo",
-    awardsEyebrow: "Centro oficial en vivo", awardsTitle: "Marcadores y premios", refreshNow: "Actualizar", officialFifa: "FIFA oficial",
-    connecting: "Conectando al feed oficial", liveMatch: "Partido en vivo", currentScores: "Marcadores", matchResults: "Resultados",
-    status: "Estado", officialNotes: "Notas del feed oficial", feedReady: "Feed oficial conectado", feedFallback: "Feed oficial no conectado",
+    teams: "Equipos", groups: "Grupos", groupMatches: "Partidos", hostCities: "Ciudades sede",
+    scheduleEyebrow: "Planificador", scheduleTitle: "Calendario del Torneo", timezone: "Zona horaria", timeFormat: "Formato", time12: "12 horas", time24: "24 horas", filterGroup: "Grupo",
+    qualificationRule: "Avanzan los ocho mejores terceros a los Dieciseisavos de final.",
+    thirdPlaceTitle: "Mejores terceros", rank: "Pos.", team: "Equipo", group: "Grupo",
+    awardsEyebrow: "Centro oficial en vivo", awardsTitle: "Marcadores y Posiciones", refreshNow: "Actualizar",
+    connecting: "Conectando al feed", liveMatch: "Partido en vivo", currentScores: "Marcadores actuales", matchResults: "Resultados",
+    status: "Estado", officialNotes: "Notas del feed", feedReady: "Feed conectado", feedFallback: "Feed no conectado",
     goldenBoot: "Bota de Oro", topScorer: "Maximo goleador", playmaker: "Creador", topAssists: "Mas asistencias", motmRace: "Jugador del partido", mostMotm: "Mas premios",
     stadiumsEyebrow: "Ciudades sede", stadiumsTitle: "Guia de estadios", footerNote: "PWA vanilla estatica.",
-    allGroups: "Todos", match: "Partido", local: "local", capacity: "Capacidad", online: "Online", offline: "Lista offline"
+    allGroups: "Todos", match: "Partido", local: "local", capacity: "Capacidad", online: "Online", offline: "Lista offline",
+    matchCenter: "Partidos", standings: "Posiciones", squads: "Plantillas", standingsNote: "Estas tablas se actualizan automaticamente basadas en resultados oficiales.", squadsNote: "Plantillas oficiales de 26 jugadores.",
+    clickMatchDetails: "Haz clic para ver alineaciones", startingXi: "Titulares", subs: "Suplentes"
   },
   fr: {
-    navHome: "Accueil", navSchedule: "Calendrier", navPredictor: "Pronostic", navAwards: "Direct", navStadiums: "Stades",
+    navHome: "Accueil", navSchedule: "Calendrier", navLive: "Direct", navStadiums: "Stades",
     heroEyebrow: "Coupe du Monde 2026", heroTitle: "Chaque match, a votre heure.",
-    heroText: "Un hub hors ligne pour les affiches, horaires locaux, classements vivants et scenarios.",
-    viewSchedule: "Voir calendrier", openPredictor: "Ouvrir pronostic", openingMatch: "Match d'ouverture",
+    heroText: "Un hub hors ligne pour les affiches, horaires locaux, scores en direct, classements officiels et statistiques.",
+    viewSchedule: "Voir calendrier", openLive: "Centre en Direct", openingMatch: "Match d'ouverture",
     days: "Jours", hours: "Heures", minutes: "Minutes", seconds: "Secondes",
-    teams: "Equipes", groups: "Groupes", groupMatches: "Matchs de groupes", hostCities: "Villes hotes",
-    scheduleEyebrow: "Planificateur", scheduleTitle: "Calendrier des groupes", timezone: "Fuseau horaire", timeFormat: "Format", time12: "12 heures", time24: "24 heures", filterGroup: "Groupe",
-    predictorEyebrow: "Moteur de scenarios", predictorTitle: "Pronostic des groupes", sampleScores: "Scores exemple", resetScores: "Reinitialiser",
-    autoSave: "Les scores sont sauvegardes sur cet appareil.", qualificationRule: "Les deux premiers de chaque groupe et les huit meilleurs troisiemes avancent.",
-    thirdPlaceTitle: "Course des meilleurs troisiemes", rank: "Rang", team: "Equipe", group: "Groupe",
-    awardsEyebrow: "Centre officiel en direct", awardsTitle: "Scores et prix", refreshNow: "Actualiser", officialFifa: "FIFA officiel",
-    connecting: "Connexion au flux officiel", liveMatch: "Match en direct", currentScores: "Scores", matchResults: "Resultats",
-    status: "Statut", officialNotes: "Notes du flux officiel", feedReady: "Flux officiel connecte", feedFallback: "Flux officiel non connecte",
+    teams: "Equipes", groups: "Groupes", groupMatches: "Matchs", hostCities: "Villes hotes",
+    scheduleEyebrow: "Planificateur", scheduleTitle: "Calendrier du Tournoi", timezone: "Fuseau horaire", timeFormat: "Format", time12: "12 heures", time24: "24 heures", filterGroup: "Groupe",
+    qualificationRule: "Les huit meilleurs troisiemes avancent en Seizièmes de finale.",
+    thirdPlaceTitle: "Meilleurs troisiemes", rank: "Rang", team: "Equipe", group: "Groupe",
+    awardsEyebrow: "Centre en direct", awardsTitle: "Scores et Classements", refreshNow: "Actualiser",
+    connecting: "Connexion au flux", liveMatch: "Match en direct", currentScores: "Scores actuels", matchResults: "Resultats",
+    status: "Statut", officialNotes: "Notes du flux", feedReady: "Flux connecte", feedFallback: "Flux non connecte",
     goldenBoot: "Soulier d'or", topScorer: "Meilleur buteur", playmaker: "Passeur", topAssists: "Meilleures passes", motmRace: "Homme du match", mostMotm: "Plus de prix",
     stadiumsEyebrow: "Villes hotes", stadiumsTitle: "Guide des stades", footerNote: "PWA vanilla statique.",
-    allGroups: "Tous", match: "Match", local: "local", capacity: "Capacite", online: "En ligne", offline: "Pret hors ligne"
+    allGroups: "Tous", match: "Match", local: "local", capacity: "Capacite", online: "En ligne", offline: "Pret hors ligne",
+    matchCenter: "Matchs", standings: "Classements", squads: "Effectifs", standingsNote: "Ces classements sont mis a jour automatiquement selon les resultats officiels.", squadsNote: "Effectifs officiels de 26 joueurs.",
+    clickMatchDetails: "Cliquez pour voir les compositions", startingXi: "Titulaires", subs: "Remplaçants"
   }
 };
 
 const FALLBACK_TIMEZONES = ["America/Los_Angeles", "America/New_York", "Europe/London", "Europe/Paris", "Asia/Tokyo", "Australia/Sydney", "UTC"];
 const TIMEZONES = typeof Intl.supportedValuesOf === "function" ? Intl.supportedValuesOf("timeZone") : FALLBACK_TIMEZONES;
-const STORAGE_KEY = "wc26-score-state-v2";
 const LOCALE_BY_LANG = { en: "en-US", es: "es-ES", fr: "fr-FR" };
 
 const teamGroup = new Map(Object.entries(GROUPS).flatMap(([group, teams]) => teams.map(team => [team, group])));
@@ -190,9 +191,7 @@ const fixtures = FIXTURES.map(([home, away, utc, city, stadium], index) => ({
 let lang = localStorage.getItem("wc26-lang") || "en";
 let timezone = localStorage.getItem("wc26-timezone") || Intl.DateTimeFormat().resolvedOptions().timeZone || "America/New_York";
 let timeFormat = localStorage.getItem("wc26-time-format") || "12";
-let scores = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
 let liveFeed = null;
-let deferredInstallPrompt = null;
 
 const els = {
   language: document.getElementById("languageSelect"),
@@ -200,10 +199,7 @@ const els = {
   timeFormat: document.getElementById("timeFormatSelect"),
   groupFilter: document.getElementById("groupFilter"),
   scheduleList: document.getElementById("scheduleList"),
-  predictorGrid: document.getElementById("predictorGrid"),
   thirdPlaceBody: document.getElementById("thirdPlaceBody"),
-  completedMatches: document.getElementById("completedMatches"),
-  installButton: document.getElementById("installButton"),
   offlineStatus: document.getElementById("offlineStatus"),
   liveFeedStatus: document.getElementById("liveFeedStatus"),
   liveLastUpdated: document.getElementById("liveLastUpdated"),
@@ -233,6 +229,8 @@ function applyTranslations() {
   renderSchedule();
   renderStadiums();
   renderAwards();
+  renderStandings();
+  renderSquads();
 }
 
 function setView(viewId) {
@@ -262,86 +260,12 @@ function renderSchedule() {
   }).join("");
 }
 
-function renderPredictor() {
-  els.predictorGrid.innerHTML = Object.keys(GROUPS).map(grp => {
-    const grpFix = fixtures.filter(m => m.group === grp);
-    const rows = grpFix.map(m => {
-      const s = scores[m.id] || { home: "", away: "" };
-      return `
-        <div class="score-row">
-          <label class="score-team">${escapeHtml(m.home)}${flag(m.home)}</label>
-          <div class="score-boxes">
-            <input type="number" min="0" data-match="${m.id}" data-side="home" value="${s.home}">
-            <span>-</span>
-            <input type="number" min="0" data-match="${m.id}" data-side="away" value="${s.away}">
-          </div>
-          <label class="score-team">${flag(m.away)}${escapeHtml(m.away)}</label>
-        </div>`;
-    }).join("");
-    return `
-      <article class="group-card">
-        <div class="group-header"><h3>Group ${grp}</h3></div>
-        <div class="match-input-list">${rows}</div>
-        <div class="table-wrap"><table><thead><tr><th>${t("team")}</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>GF</th><th>PTS</th></tr></thead><tbody id="standings-${grp}"></tbody></table></div>
-      </article>`;
-  }).join("");
-
-  els.predictorGrid.querySelectorAll("input").forEach(i => i.addEventListener("input", handleScoreInput));
-  recalculateAll();
-}
-
-function handleScoreInput(e) {
-  const { match, side } = e.target.dataset;
-  const val = e.target.value === "" ? "" : Math.max(0, parseInt(e.target.value));
-  e.target.value = val;
-  scores[match] = { ...(scores[match] || { home: "", away: "" }), [side]: val };
-  if (scores[match].home === "" && scores[match].away === "") delete scores[match];
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(scores));
-  recalculateAll();
-}
-
-function recalculateAll() {
-  const thirds = [];
-  Object.keys(GROUPS).forEach(grp => {
-    const stats = new Map(GROUPS[grp].map(t => [t, { team: t, p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 }]));
-    fixtures.filter(m => m.group === grp).forEach(m => {
-      const s = scores[m.id];
-      if (!s || s.home === "" || s.away === "") return;
-      const h = parseInt(s.home), a = parseInt(s.away);
-      const ht = stats.get(m.home), at = stats.get(m.away);
-      ht.p++; at.p++; ht.gf += h; ht.ga += a; at.gf += a; at.ga += h;
-      if (h > a) { ht.w++; ht.pts += 3; at.l++; }
-      else if (a > h) { at.w++; at.pts += 3; ht.l++; }
-      else { ht.d++; at.d++; ht.pts++; at.pts++; }
-    });
-    
-    stats.forEach(t => t.gd = t.gf - t.ga);
-    const sorted = [...stats.values()].sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.team.localeCompare(b.team));
-    
-    document.getElementById(`standings-${grp}`).innerHTML = sorted.map((r, i) => `
-      <tr class="${i < 2 ? "advance-row" : i === 2 ? "third-row" : "muted-row"}">
-        <td><span class="standings-team">${flag(r.team)}${r.team}</span></td>
-        <td>${r.p}</td><td>${r.w}</td><td>${r.d}</td><td>${r.l}</td><td>${r.gd > 0 ? "+"+r.gd : r.gd}</td><td>${r.gf}</td><td><b>${r.pts}</b></td>
-      </tr>`).join("");
-      
-    if (sorted[2]) thirds.push({ ...sorted[2], group: grp });
-  });
-
-  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
-  els.thirdPlaceBody.innerHTML = thirds.map((r, i) => `
-    <tr class="${i < 8 ? "advance-row" : "muted-row"}">
-      <td>${i + 1}</td><td><span class="standings-team">${flag(r.team)}${r.team}</span></td><td>${r.group}</td><td><b>${r.pts}</b></td><td>${r.gd > 0 ? "+"+r.gd : r.gd}</td><td>${r.gf}</td>
-    </tr>`).join("");
-    
-  els.completedMatches.textContent = `${Object.values(scores).filter(s => s.home !== "" && s.away !== "").length} / 72`;
-}
-
-
-// Live Feed Logic (GitHub JSON Polling)
+// ==========================================
+// Static JSON Polling (GitHub Actions Method)
+// ==========================================
 async function fetchLiveFeed() {
   els.liveFeedStatus.textContent = t("connecting");
   try {
-    // Add ?t= timestamp to bypass cache and always get the newest file
     const res = await fetch(`data.json?t=${Date.now()}`);
     if (!res.ok) throw new Error("Local data.json not found");
     liveFeed = normalizeLiveFeed(await res.json(), true);
@@ -352,13 +276,15 @@ async function fetchLiveFeed() {
     console.warn("Live feed unavailable, CI/CD data.json likely missing", err);
   }
   renderAwards();
+  renderStandings();
+  renderSquads();
 }
 
 function emptyLiveFeed() {
   return {
     source: "local-fallback", sourceUrl: "https://www.fifa.com/en/match-centre", updatedAt: new Date().toISOString(),
     matches: fixtures.map(m => ({ id: m.id, number: m.number, group: m.group, home: m.home, away: m.away, homeScore: null, awayScore: null, status: "Scheduled", utc: m.utc })),
-    awards: { goldenBoot: [], assists: [], manOfTheMatch: [] }, notes: [t("feedFallbackNote")]
+    awards: { goldenBoot: [], assists: [], manOfTheMatch: [] }, notes: ["Please set up fetch-scores.yml in GitHub Actions."]
   };
 }
 
@@ -388,7 +314,7 @@ function leaderMarkup(p, metric, label) {
 function renderAwards() {
   const feed = liveFeed || emptyLiveFeed();
   const updated = new Date(feed.updatedAt);
-  els.liveLastUpdated.textContent = Number.isNaN(updated.getTime()) ? "--" : updated.toLocaleString(LOCALE_BY_LANG[lang]);
+  els.liveLastUpdated.textContent = isNaN(updated.getTime()) ? "--" : updated.toLocaleString(LOCALE_BY_LANG[lang]);
   
   els.goldenBootLeader.innerHTML = leaderMarkup(feed.awards.goldenBoot[0], "goals", t("goals"));
   els.assistLeader.innerHTML = leaderMarkup(feed.awards.assists[0], "assists", t("assists"));
@@ -403,11 +329,10 @@ function renderLiveScores(liveMatches) {
   const active = sorted.filter(m => /live|half|progress|playing/i.test(m.status || ""));
   const railMatches = active.length ? active : sorted.slice(0, 4);
   
-  // REFINED UI: Premium Scoreboard style
   els.liveScoreRail.innerHTML = railMatches.map(m => {
     const isLive = /live|half|progress|playing/i.test(m.status || "");
     return `
-    <article class="live-score-card-refined ${isLive ? 'is-live' : ''}">
+    <article class="live-score-card-refined ${isLive ? 'is-live' : ''}" onclick="openMatchModal('${m.id}')">
       <div class="live-match-meta">
         <span>${t("match")} ${m.number || ""} • Grp ${escapeHtml(m.group || "")}</span>
         <span style="color: ${isLive ? 'var(--green)' : 'var(--muted)'}">${escapeHtml(m.status || "Scheduled")}</span>
@@ -437,6 +362,88 @@ function renderLiveScores(liveMatches) {
     </tr>
   `).join("");
 }
+
+function renderStandings() {
+  if (!liveFeed) return;
+  const grid = document.getElementById("standingsGrid");
+  const thirds = [];
+  
+  grid.innerHTML = Object.keys(GROUPS).map(grp => {
+    const stats = new Map(GROUPS[grp].map(t => [t, { team: t, p: 0, w: 0, d: 0, l: 0, gf: 0, ga: 0, gd: 0, pts: 0 }]));
+    
+    liveFeed.matches.filter(m => m.group === grp).forEach(m => {
+      if (m.homeScore === null || m.awayScore === null) return;
+      const h = Number(m.homeScore), a = Number(m.awayScore);
+      const ht = stats.get(m.home), at = stats.get(m.away);
+      if(!ht || !at) return;
+      ht.p++; at.p++; ht.gf += h; ht.ga += a; at.gf += a; at.ga += h;
+      if (h > a) { ht.w++; ht.pts += 3; at.l++; }
+      else if (a > h) { at.w++; at.pts += 3; ht.l++; }
+      else { ht.d++; at.d++; ht.pts++; at.pts++; }
+    });
+    
+    stats.forEach(t => t.gd = t.gf - t.ga);
+    const sorted = [...stats.values()].sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf || a.team.localeCompare(b.team));
+    
+    if (sorted[2]) thirds.push({ ...sorted[2], group: grp });
+
+    const rows = sorted.map((r, i) => `
+      <tr class="${i < 2 ? "advance-row" : i === 2 ? "third-row" : "muted-row"}">
+        <td><span class="standings-team">${flag(r.team)}${escapeHtml(r.team)}</span></td>
+        <td>${r.p}</td><td>${r.w}</td><td>${r.d}</td><td>${r.l}</td><td>${r.gd > 0 ? "+"+r.gd : r.gd}</td><td>${r.gf}</td><td><b>${r.pts}</b></td>
+      </tr>`).join("");
+      
+    return `
+      <article class="group-card">
+        <div class="group-header"><h3>Group ${grp}</h3></div>
+        <div class="table-wrap" style="margin-top:0;"><table><thead><tr><th>${t("team")}</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>GF</th><th>PTS</th></tr></thead><tbody>${rows}</tbody></table></div>
+      </article>`;
+  }).join("");
+
+  // Render Third Place
+  thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
+  document.getElementById('thirdPlaceBody').innerHTML = thirds.map((r, i) => `
+    <tr class="${i < 8 ? "advance-row" : "muted-row"}">
+      <td>${i + 1}</td><td><span class="standings-team">${flag(r.team)}${escapeHtml(r.team)}</span></td><td>${r.group}</td><td><b>${r.pts}</b></td><td>${r.gd > 0 ? "+"+r.gd : r.gd}</td><td>${r.gf}</td>
+    </tr>`).join("");
+}
+
+function renderSquads() {
+  const grid = document.getElementById("squadsGrid");
+  const allTeams = Object.values(GROUPS).flat().sort();
+  grid.innerHTML = allTeams.map(team => `
+    <article class="stadium-card">
+      <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;">${flag(team)} <h3>${team}</h3></div>
+      <p style="font-size:0.85rem; color:var(--muted);">26 Players Confirmed</p>
+      <div class="stadium-meta"><span>Squad list unavailable</span></div>
+    </article>
+  `).join("");
+}
+
+// Modal Logic
+window.openMatchModal = function(id) {
+  const match = liveFeed.matches.find(m => m.id === id) || fixtures.find(m => m.id === id);
+  if(!match) return;
+  
+  document.getElementById('modalMatchTitle').textContent = `${t("match")} ${match.number} - ${escapeHtml(match.status || "Scheduled")}`;
+  document.getElementById('modalHomeTeam').innerHTML = `${flag(match.home)} ${escapeHtml(match.home)}`;
+  document.getElementById('modalAwayTeam').innerHTML = `${escapeHtml(match.away)} ${flag(match.away)}`;
+  document.getElementById('modalScore').textContent = `${formatScore(match.homeScore)} - ${formatScore(match.awayScore)}`;
+
+  const mockLineup = () => Array.from({length: 11}, (_, i) => `<li><span class="player-number">${i+1}</span> Player ${i+1}</li>`).join("");
+  const mockSubs = () => Array.from({length: 15}, (_, i) => `<li><span class="player-number">${i+12}</span> Sub ${i+12}</li>`).join("");
+
+  document.getElementById('modalHomeLineup').innerHTML = match.homeLineup || mockLineup();
+  document.getElementById('modalAwayLineup').innerHTML = match.awayLineup || mockLineup();
+  document.getElementById('modalHomeSubs').innerHTML = match.homeSubs || mockSubs();
+  document.getElementById('modalAwaySubs').innerHTML = match.awaySubs || mockSubs();
+
+  document.getElementById('matchModal').classList.add('is-active');
+};
+
+window.closeMatchModal = function() {
+  document.getElementById('matchModal').classList.remove('is-active');
+};
 
 function renderOfficialNotes(feed) {
   els.officialNotes.innerHTML = `
@@ -483,18 +490,25 @@ function updateCountdown() {
 
 function updateNetworkStatus() {
   const offline = !navigator.onLine;
-  els.offlineStatus.textContent = offline ? t("offline") : t("online");
-  els.offlineStatus.classList.toggle("is-offline", offline);
+  document.getElementById("offlineStatus").textContent = offline ? t("offline") : t("online");
+  document.getElementById("offlineStatus").classList.toggle("is-offline", offline);
 }
 
 function wireEvents() {
   document.querySelectorAll(".nav-button, [data-jump]").forEach(b => b.addEventListener("click", e => setView((e.currentTarget.dataset.view || e.currentTarget.dataset.jump))));
-  els.language.addEventListener("change", e => { lang = e.target.value; localStorage.setItem("wc26-lang", lang); applyTranslations(); renderPredictor(); });
+  
+  // Live Sub-nav logic
+  document.querySelectorAll('.live-tab').forEach(b => b.addEventListener('click', e => {
+    document.querySelectorAll('.live-tab').forEach(tab => tab.classList.remove('is-active'));
+    document.querySelectorAll('.live-view').forEach(view => view.style.display = 'none');
+    e.target.classList.add('is-active');
+    document.getElementById(e.target.dataset.liveTarget).style.display = 'block';
+  }));
+
+  els.language.addEventListener("change", e => { lang = e.target.value; localStorage.setItem("wc26-lang", lang); applyTranslations(); });
   els.timezone.addEventListener("change", e => { timezone = e.target.value; localStorage.setItem("wc26-timezone", timezone); renderSchedule(); });
   els.timeFormat.addEventListener("change", e => { timeFormat = e.target.value; localStorage.setItem("wc26-time-format", timeFormat); renderSchedule(); });
   els.groupFilter.addEventListener("change", renderSchedule);
-  document.getElementById("sampleScoresButton").addEventListener("click", () => { scores = {}; fixtures.forEach((m, i) => scores[m.id] = { home: i % 4, away: (i + 2) % 4 }); saveScores(); renderPredictor(); });
-  document.getElementById("resetScoresButton").addEventListener("click", () => { scores = {}; saveScores(); renderPredictor(); });
   document.getElementById("refreshLiveButton").addEventListener("click", fetchLiveFeed);
   window.addEventListener("online", updateNetworkStatus);
   window.addEventListener("offline", updateNetworkStatus);
@@ -504,10 +518,10 @@ function wireEvents() {
 
 function init() {
   buildControls(); wireEvents(); applyTranslations();
-  renderPredictor(); renderStadiums(); fetchLiveFeed();
+  renderStadiums(); fetchLiveFeed();
   setInterval(updateCountdown, 1000); setInterval(fetchLiveFeed, 60000);
   const hash = location.hash.replace("#", "");
-  if (["home", "schedule", "predictor", "awards", "stadiums"].includes(hash)) setView(hash);
+  if (["home", "schedule", "awards", "stadiums"].includes(hash)) setView(hash);
 }
 
 init();
