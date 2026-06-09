@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071527">
+  <meta name="description" content="Fast FIFA World Cup 2026 schedule, timezone converter, group predictor, and stadium guide.">
+  <title>FIFA World Cup 2026 Hub</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <a class="brand" href="#home" aria-label="FIFA World Cup 2026 Hub home">
+      <span class="brand-mark" aria-hidden="true">26</span>
+      <span>
+        <strong>World Cup Hub</strong>
+        <small>USA • Canada • Mexico</small>
+      </span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary navigation">
+      <button class="nav-button is-active" type="button" data-view="home" data-i18n="navHome">Home</button>
+      <button class="nav-button" type="button" data-view="schedule" data-i18n="navSchedule">Schedule</button>
+      <button class="nav-button" type="button" data-view="predictor" data-i18n="navPredictor">Predictor</button>
+      <button class="nav-button" type="button" data-view="awards" data-i18n="navAwards">Live</button>
+      <button class="nav-button" type="button" data-view="stadiums" data-i18n="navStadiums">Stadiums</button>
+    </nav>
+
+    <div class="header-actions">
+      <label class="visually-hidden" for="languageSelect">Language</label>
+      <select id="languageSelect" class="control">
+        <option value="en">EN</option>
+        <option value="es">ES</option>
+        <option value="fr">FR</option>
+      </select>
+      <button id="installButton" class="icon-button" type="button" hidden title="Install app" aria-label="Install app">
+        <span aria-hidden="true">↓</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="view is-active" aria-labelledby="homeTitle">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">FIFA World Cup 2026</p>
+          <h1 id="homeTitle" data-i18n="heroTitle">Every group-stage kick-off, in your time.</h1>
+          <p class="hero-text" data-i18n="heroText">A fast offline-ready hub for fixtures, local kick-off times, live group tables, and knockout qualification scenarios.</p>
+          <div class="hero-actions">
+            <button class="primary-action" type="button" data-jump="schedule" data-i18n="viewSchedule">View schedule</button>
+            <button class="secondary-action" type="button" data-jump="predictor" data-i18n="openPredictor">Open predictor</button>
+          </div>
+        </div>
+
+        <div class="countdown-panel" aria-label="Countdown to opening match">
+          <span class="panel-kicker" data-i18n="openingMatch">Opening match</span>
+          <strong>Mexico vs South Africa</strong>
+          <small>June 11, 2026 • Estadio Azteca</small>
+          <div class="countdown-grid">
+            <span><b id="days">0</b><small data-i18n="days">Days</small></span>
+            <span><b id="hours">0</b><small data-i18n="hours">Hours</small></span>
+            <span><b id="minutes">0</b><small data-i18n="minutes">Minutes</small></span>
+            <span><b id="seconds">0</b><small data-i18n="seconds">Seconds</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quick-stats" aria-label="Tournament stats">
+        <article><b>48</b><span data-i18n="teams">Teams</span></article>
+        <article><b>12</b><span data-i18n="groups">Groups</span></article>
+        <article><b>72</b><span data-i18n="groupMatches">Group matches</span></article>
+        <article><b>16</b><span data-i18n="hostCities">Host cities</span></article>
+      </div>
+    </section>
+
+    <section id="schedule" class="view" aria-labelledby="scheduleTitle">
+      <div class="section-toolbar">
+        <div>
+          <p class="eyebrow" data-i18n="scheduleEyebrow">Fixture planner</p>
+          <h2 id="scheduleTitle" data-i18n="scheduleTitle">Group-stage schedule</h2>
+        </div>
+        <div class="toolbar-controls">
+          <label>
+            <span data-i18n="timezone">Timezone</span>
+            <select id="timezoneSelect" class="control"></select>
+          </label>
+          <label>
+            <span data-i18n="timeFormat">Time format</span>
+            <select id="timeFormatSelect" class="control">
+              <option value="12" data-i18n="time12">12-hour</option>
+              <option value="24" data-i18n="time24">24-hour</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="filterGroup">Group</span>
+            <select id="groupFilter" class="control"></select>
+          </label>
+        </div>
+      </div>
+      <div id="scheduleList" class="schedule-list" aria-live="polite"></div>
+    </section>
+
+    <section id="predictor" class="view" aria-labelledby="predictorTitle">
+      <div class="section-toolbar">
+        <div>
+          <p class="eyebrow" data-i18n="predictorEyebrow">Scenario engine</p>
+          <h2 id="predictorTitle" data-i18n="predictorTitle">Group-stage predictor</h2>
+        </div>
+        <div class="toolbar-controls">
+          <button id="sampleScoresButton" class="secondary-action compact" type="button" data-i18n="sampleScores">Sample scores</button>
+          <button id="resetScoresButton" class="danger-action compact" type="button" data-i18n="resetScores">Reset</button>
+        </div>
+      </div>
+
+      <div class="predictor-summary">
+        <div>
+          <span data-i18n="autoSave">Scores auto-save on this device.</span>
+          <b id="completedMatches">0 / 72</b>
+        </div>
+        <div>
+          <span data-i18n="qualificationRule">Top two in each group plus the eight best third-place teams advance.</span>
+        </div>
+      </div>
+
+      <div id="predictorGrid" class="predictor-grid"></div>
+
+      <section class="third-place-section" aria-labelledby="thirdPlaceTitle">
+        <h3 id="thirdPlaceTitle" data-i18n="thirdPlaceTitle">Best third-place race</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="rank">Rank</th>
+                <th data-i18n="team">Team</th>
+                <th data-i18n="group">Group</th>
+                <th>PTS</th>
+                <th>GD</th>
+                <th>GF</th>
+              </tr>
+            </thead>
+            <tbody id="thirdPlaceBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section id="awards" class="view" aria-labelledby="awardsTitle">
+      <div class="section-toolbar">
+        <div>
+          <p class="eyebrow" data-i18n="awardsEyebrow">Official live center</p>
+          <h2 id="awardsTitle" data-i18n="awardsTitle">Scores & awards</h2>
+        </div>
+        <div class="toolbar-controls">
+          <button id="refreshLiveButton" class="secondary-action compact" type="button" data-i18n="refreshNow">Refresh</button>
+          <a class="source-link" href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures" target="_blank" rel="noreferrer" data-i18n="officialFifa">Official FIFA</a>
+        </div>
+      </div>
+
+      <div class="live-status-strip" aria-live="polite">
+        <span id="liveFeedStatus" data-i18n="connecting">Connecting to official feed</span>
+        <b id="liveLastUpdated">--</b>
+      </div>
+
+      <!-- REFINED LIVE DASHBOARD -->
+      <div class="live-dashboard">
+        
+        <section class="live-matches-panel" aria-labelledby="liveMatchTitle">
+          <div class="panel-header">
+            <span class="pulse-dot" style="background: var(--green); box-shadow: 0 0 8px var(--green);"></span>
+            <h3 id="liveMatchTitle" data-i18n="currentScores">Current scores</h3>
+          </div>
+          <div id="liveScoreRail" class="live-score-grid"></div>
+        </section>
+
+        <div class="awards-layout">
+          <section class="award-card golden" aria-labelledby="goldenBootTitle">
+            <span class="panel-kicker" data-i18n="goldenBoot">Golden Boot</span>
+            <h3 id="goldenBootTitle" data-i18n="topScorer">Top scorer</h3>
+            <div id="goldenBootLeader" class="leader-card"></div>
+          </section>
+
+          <section class="award-card" aria-labelledby="playmakerTitle">
+            <span class="panel-kicker" data-i18n="playmaker">Playmaker</span>
+            <h3 id="playmakerTitle" data-i18n="topAssists">Top assists</h3>
+            <div id="assistLeader" class="leader-card"></div>
+          </section>
+
+          <section class="award-card" aria-labelledby="motmTitle">
+            <span class="panel-kicker" data-i18n="motmRace">Man of the Match</span>
+            <h3 id="motmTitle" data-i18n="mostMotm">Most awards</h3>
+            <div id="motmLeader" class="leader-card"></div>
+          </section>
+        </div>
+
+      </div>
+
+      <div class="awards-tables">
+        <section class="third-place-section">
+          <h3 data-i18n="matchResults">Match results</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th data-i18n="match">Match</th>
+                  <th data-i18n="team">Team</th>
+                  <th></th>
+                  <th data-i18n="team">Team</th>
+                  <th data-i18n="status">Status</th>
+                </tr>
+              </thead>
+              <tbody id="liveMatchTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="third-place-section">
+          <h3 data-i18n="officialNotes">Official feed notes</h3>
+          <div id="officialNotes" class="official-notes"></div>
+        </section>
+      </div>
+    </section>
+
+    <section id="stadiums" class="view" aria-labelledby="stadiumsTitle">
+      <div class="section-toolbar">
+        <div>
+          <p class="eyebrow" data-i18n="stadiumsEyebrow">Host cities</p>
+          <h2 id="stadiumsTitle" data-i18n="stadiumsTitle">Stadium guide</h2>
+        </div>
+      </div>
+      <div id="stadiumGrid" class="stadium-grid"></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <span id="offlineStatus">Online</span>
+    <span data-i18n="footerNote">Static vanilla PWA. No ads, no tracking, no backend.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
