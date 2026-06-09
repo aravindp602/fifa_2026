@@ -49,7 +49,6 @@ async function fetchAllData() {
   }
 }
 
-// --- HELPER FUNCTIONS ---
 async function fetchEndpoint(baseUrl, endpoint, apiKey, params = {}) {
   const url = new URL(`${baseUrl}${endpoint}`);
   url.searchParams.set("key", apiKey);

@@ -1,16 +1,10 @@
 const GROUPS = {
-  A: ["Mexico", "South Africa", "South Korea", "Czechia"],
-  B: ["Canada", "Switzerland", "Qatar", "Bosnia"],
-  C: ["Brazil", "Morocco", "Scotland", "Haiti"],
-  D: ["USA", "Australia", "Paraguay", "Turkiye"],
-  E: ["Germany", "Ivory Coast", "Ecuador", "Curacao"],
-  F: ["Netherlands", "Japan", "Tunisia", "Sweden"],
-  G: ["Belgium", "Iran", "Egypt", "New Zealand"],
-  H: ["Spain", "Uruguay", "Saudi Arabia", "Cape Verde"],
-  I: ["France", "Senegal", "Norway", "Iraq"],
-  J: ["Argentina", "Algeria", "Austria", "Jordan"],
-  K: ["Portugal", "Colombia", "Uzbekistan", "Congo DR"],
-  L: ["England", "Croatia", "Ghana", "Panama"]
+  A: ["Mexico", "South Africa", "South Korea", "Czechia"], B: ["Canada", "Switzerland", "Qatar", "Bosnia"],
+  C: ["Brazil", "Morocco", "Scotland", "Haiti"], D: ["USA", "Australia", "Paraguay", "Turkiye"],
+  E: ["Germany", "Ivory Coast", "Ecuador", "Curacao"], F: ["Netherlands", "Japan", "Tunisia", "Sweden"],
+  G: ["Belgium", "Iran", "Egypt", "New Zealand"], H: ["Spain", "Uruguay", "Saudi Arabia", "Cape Verde"],
+  I: ["France", "Senegal", "Norway", "Iraq"], J: ["Argentina", "Algeria", "Austria", "Jordan"],
+  K: ["Portugal", "Colombia", "Uzbekistan", "Congo DR"], L: ["England", "Croatia", "Ghana", "Panama"]
 };
 
 const FLAGS = {
@@ -100,22 +94,14 @@ const FIXTURES = [
 ];
 
 const STADIUMS = [
-  ["Atlanta", "Mercedes-Benz Stadium", "USA", "75,000"],
-  ["Boston", "Gillette Stadium", "USA", "65,878"],
-  ["Dallas", "AT&T Stadium", "USA", "80,000"],
-  ["Guadalajara", "Estadio Akron", "Mexico", "48,071"],
-  ["Houston", "NRG Stadium", "USA", "72,220"],
-  ["Kansas City", "Arrowhead Stadium", "USA", "76,416"],
-  ["Los Angeles", "SoFi Stadium", "USA", "70,240"],
-  ["Mexico City", "Estadio Azteca", "Mexico", "83,264"],
-  ["Miami", "Hard Rock Stadium", "USA", "65,326"],
-  ["Monterrey", "Estadio BBVA", "Mexico", "53,500"],
-  ["New York New Jersey", "MetLife Stadium", "USA", "82,500"],
-  ["Philadelphia", "Lincoln Financial Field", "USA", "69,176"],
-  ["San Francisco Bay Area", "Levi's Stadium", "USA", "68,500"],
-  ["Seattle", "Lumen Field", "USA", "68,740"],
-  ["Toronto", "BMO Field", "Canada", "45,000"],
-  ["Vancouver", "BC Place", "Canada", "54,500"]
+  ["Atlanta", "Mercedes-Benz Stadium", "USA", "75,000"], ["Boston", "Gillette Stadium", "USA", "65,878"],
+  ["Dallas", "AT&T Stadium", "USA", "80,000"], ["Guadalajara", "Estadio Akron", "Mexico", "48,071"],
+  ["Houston", "NRG Stadium", "USA", "72,220"], ["Kansas City", "Arrowhead Stadium", "USA", "76,416"],
+  ["Los Angeles", "SoFi Stadium", "USA", "70,240"], ["Mexico City", "Estadio Azteca", "Mexico", "83,264"],
+  ["Miami", "Hard Rock Stadium", "USA", "65,326"], ["Monterrey", "Estadio BBVA", "Mexico", "53,500"],
+  ["New York New Jersey", "MetLife Stadium", "USA", "82,500"], ["Philadelphia", "Lincoln Financial Field", "USA", "69,176"],
+  ["San Francisco Bay Area", "Levi's Stadium", "USA", "68,500"], ["Seattle", "Lumen Field", "USA", "68,740"],
+  ["Toronto", "BMO Field", "Canada", "45,000"], ["Vancouver", "BC Place", "Canada", "54,500"]
 ];
 
 const TRANSLATIONS = {
@@ -152,7 +138,7 @@ const TRANSLATIONS = {
     connecting: "Conectando al feed", liveMatch: "Partido en vivo", currentScores: "Marcadores actuales", matchResults: "Resultados",
     status: "Estado", officialNotes: "Notas del feed", feedReady: "Feed conectado", feedFallback: "Feed no conectado",
     goldenBoot: "Bota de Oro", topScorer: "Maximo goleador", playmaker: "Creador", topAssists: "Mas asistencias", motmRace: "Jugador del partido", mostMotm: "Mas premios",
-    stadiumsEyebrow: "Ciudades sede", stadiumsTitle: "Guia de estadios", footerNote: "PWA vanilla estatica.",
+    stadiumsEyebrow: "Ciudades sede", stadiumsTitle: "Guia de estadios", footerNote: "PWA estatica. Sin backend.",
     allGroups: "Todos", match: "Partido", local: "local", capacity: "Capacidad", online: "Online", offline: "Lista offline",
     matchCenter: "Partidos", standings: "Posiciones", squads: "Plantillas", standingsNote: "Estas tablas se actualizan automaticamente basadas en resultados oficiales.", squadsNote: "Plantillas oficiales de 26 jugadores.",
     clickMatchDetails: "Haz clic para ver alineaciones", startingXi: "Titulares", subs: "Suplentes"
@@ -171,7 +157,7 @@ const TRANSLATIONS = {
     connecting: "Connexion au flux", liveMatch: "Match en direct", currentScores: "Scores actuels", matchResults: "Resultats",
     status: "Statut", officialNotes: "Notes du flux", feedReady: "Flux connecte", feedFallback: "Flux non connecte",
     goldenBoot: "Soulier d'or", topScorer: "Meilleur buteur", playmaker: "Passeur", topAssists: "Meilleures passes", motmRace: "Homme du match", mostMotm: "Plus de prix",
-    stadiumsEyebrow: "Villes hotes", stadiumsTitle: "Guide des stades", footerNote: "PWA vanilla statique.",
+    stadiumsEyebrow: "Villes hotes", stadiumsTitle: "Guide des stades", footerNote: "PWA statique. Sans backend.",
     allGroups: "Tous", match: "Match", local: "local", capacity: "Capacite", online: "En ligne", offline: "Pret hors ligne",
     matchCenter: "Matchs", standings: "Classements", squads: "Effectifs", standingsNote: "Ces classements sont mis a jour automatiquement selon les resultats officiels.", squadsNote: "Effectifs officiels de 26 joueurs.",
     clickMatchDetails: "Cliquez pour voir les compositions", startingXi: "Titulaires", subs: "Remplaçants"
@@ -216,11 +202,11 @@ function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({
 function flag(team) { return FLAGS[team] ? `<img class="flag" src="https://flagcdn.com/w40/${FLAGS[team]}.png" alt="" loading="lazy">` : `<span class="flag"></span>`; }
 
 function buildControls() {
-  els.language.value = lang;
-  els.timeFormat.value = timeFormat;
+  if(els.language) els.language.value = lang;
+  if(els.timeFormat) els.timeFormat.value = timeFormat;
   const zones = Array.from(new Set(["UTC", ...TIMEZONES, timezone])).sort();
-  els.timezone.innerHTML = zones.map(z => `<option value="${z}" ${z === timezone ? "selected" : ""}>${escapeHtml(z.replaceAll("_", " "))}</option>`).join("");
-  els.groupFilter.innerHTML = `<option value="all">${t("allGroups")}</option>` + Object.keys(GROUPS).map(g => `<option value="${g}">Group ${g}</option>`).join("");
+  if(els.timezone) els.timezone.innerHTML = zones.map(z => `<option value="${z}" ${z === timezone ? "selected" : ""}>${escapeHtml(z.replaceAll("_", " "))}</option>`).join("");
+  if(els.groupFilter) els.groupFilter.innerHTML = `<option value="all">${t("allGroups")}</option>` + Object.keys(GROUPS).map(g => `<option value="${g}">Group ${g}</option>`).join("");
 }
 
 function applyTranslations() {
@@ -248,6 +234,7 @@ function formatFixtureDate(utc) {
 }
 
 function renderSchedule() {
+  if(!els.scheduleList) return;
   const vis = els.groupFilter.value === "all" ? fixtures : fixtures.filter(m => m.group === els.groupFilter.value);
   els.scheduleList.innerHTML = vis.map(m => {
     const d = formatFixtureDate(m.utc);
@@ -264,15 +251,15 @@ function renderSchedule() {
 // Static JSON Polling (GitHub Actions Method)
 // ==========================================
 async function fetchLiveFeed() {
-  els.liveFeedStatus.textContent = t("connecting");
+  if(els.liveFeedStatus) els.liveFeedStatus.textContent = t("connecting");
   try {
     const res = await fetch(`data.json?t=${Date.now()}`);
     if (!res.ok) throw new Error("Local data.json not found");
     liveFeed = normalizeLiveFeed(await res.json(), true);
-    els.liveFeedStatus.textContent = t("feedReady");
+    if(els.liveFeedStatus) els.liveFeedStatus.textContent = t("feedReady");
   } catch (err) {
     liveFeed = normalizeLiveFeed(emptyLiveFeed(), false);
-    els.liveFeedStatus.textContent = t("feedFallback");
+    if(els.liveFeedStatus) els.liveFeedStatus.textContent = t("feedFallback");
     console.warn("Live feed unavailable, CI/CD data.json likely missing", err);
   }
   renderAwards();
@@ -282,7 +269,7 @@ async function fetchLiveFeed() {
 
 function emptyLiveFeed() {
   return {
-    source: "local-fallback", sourceUrl: "https://www.fifa.com/en/match-centre", updatedAt: new Date().toISOString(),
+    source: "local-fallback", sourceUrl: "https://www.fifa.com", updatedAt: new Date().toISOString(),
     matches: fixtures.map(m => ({ id: m.id, number: m.number, group: m.group, home: m.home, away: m.away, homeScore: null, awayScore: null, status: "Scheduled", utc: m.utc })),
     awards: { goldenBoot: [], assists: [], manOfTheMatch: [] }, notes: ["Please set up fetch-scores.yml in GitHub Actions."]
   };
@@ -290,7 +277,7 @@ function emptyLiveFeed() {
 
 function normalizeLiveFeed(feed, connected) {
   return {
-    connected, source: feed.source || "FIFA", sourceUrl: feed.sourceUrl || "https://www.fifa.com/en/match-centre",
+    connected, source: feed.source || "FIFA", sourceUrl: feed.sourceUrl || "https://www.fifa.com",
     updatedAt: feed.updatedAt || new Date().toISOString(), matches: Array.isArray(feed.matches) ? feed.matches : [],
     awards: {
       goldenBoot: Array.isArray(feed.awards?.goldenBoot) ? feed.awards.goldenBoot : [],
@@ -314,11 +301,11 @@ function leaderMarkup(p, metric, label) {
 function renderAwards() {
   const feed = liveFeed || emptyLiveFeed();
   const updated = new Date(feed.updatedAt);
-  els.liveLastUpdated.textContent = isNaN(updated.getTime()) ? "--" : updated.toLocaleString(LOCALE_BY_LANG[lang]);
+  if(els.liveLastUpdated) els.liveLastUpdated.textContent = isNaN(updated.getTime()) ? "--" : updated.toLocaleString(LOCALE_BY_LANG[lang]);
   
-  els.goldenBootLeader.innerHTML = leaderMarkup(feed.awards.goldenBoot[0], "goals", t("goals"));
-  els.assistLeader.innerHTML = leaderMarkup(feed.awards.assists[0], "assists", t("assists"));
-  els.motmLeader.innerHTML = leaderMarkup(feed.awards.manOfTheMatch[0], "motm", t("motm"));
+  if(els.goldenBootLeader) els.goldenBootLeader.innerHTML = leaderMarkup(feed.awards.goldenBoot[0], "goals", t("goals"));
+  if(els.assistLeader) els.assistLeader.innerHTML = leaderMarkup(feed.awards.assists[0], "assists", t("assists"));
+  if(els.motmLeader) els.motmLeader.innerHTML = leaderMarkup(feed.awards.manOfTheMatch[0], "motm", t("motm"));
   
   renderLiveScores(feed.matches);
   renderOfficialNotes(feed);
@@ -329,43 +316,61 @@ function renderLiveScores(liveMatches) {
   const active = sorted.filter(m => /live|half|progress|playing/i.test(m.status || ""));
   const railMatches = active.length ? active : sorted.slice(0, 4);
   
-  els.liveScoreRail.innerHTML = railMatches.map(m => {
-    const isLive = /live|half|progress|playing/i.test(m.status || "");
-    return `
-    <article class="live-score-card-refined ${isLive ? 'is-live' : ''}" onclick="openMatchModal('${m.id}')">
-      <div class="live-match-meta">
-        <span>${t("match")} ${m.number || ""} • Grp ${escapeHtml(m.group || "")}</span>
-        <span style="color: ${isLive ? 'var(--green)' : 'var(--muted)'}">${escapeHtml(m.status || "Scheduled")}</span>
-      </div>
-      <div class="live-match-teams">
-        <div class="live-team-row">
-          <div class="live-team-info">${flag(m.home)}${escapeHtml(m.home)}</div>
-          <div class="live-score">${formatScore(m.homeScore)}</div>
+  if (els.liveScoreRail) {
+    els.liveScoreRail.innerHTML = railMatches.map(m => {
+      const isLive = /live|half|progress|playing/i.test(m.status || "");
+      return `
+      <article class="live-score-card-refined ${isLive ? 'is-live' : ''}" onclick="openMatchModal('${m.id}')">
+        <div class="live-match-meta">
+          <span>${t("match")} ${m.number || ""} • Grp ${escapeHtml(m.group || "")}</span>
+          <span style="color: ${isLive ? 'var(--green)' : 'var(--muted)'}">${escapeHtml(m.status || "Scheduled")}</span>
         </div>
-        <div class="live-team-row">
-          <div class="live-team-info">${flag(m.away)}${escapeHtml(m.away)}</div>
-          <div class="live-score">${formatScore(m.awayScore)}</div>
+        <div class="live-match-teams">
+          <div class="live-team-row">
+            <div class="live-team-info">${flag(m.home)}${escapeHtml(m.home)}</div>
+            <div class="live-score">${formatScore(m.homeScore)}</div>
+          </div>
+          <div class="live-team-row">
+            <div class="live-team-info">${flag(m.away)}${escapeHtml(m.away)}</div>
+            <div class="live-score">${formatScore(m.awayScore)}</div>
+          </div>
         </div>
-      </div>
-    </article>`;
-  }).join("");
+      </article>`;
+    }).join("");
+  }
 
-  els.liveMatchTableBody.innerHTML = sorted.map(m => `
-    <tr>
-      <td>${m.number || ""}</td>
-      <td><span class="standings-team">${flag(m.home)}${escapeHtml(m.home)}</span></td>
-      <td><b style="font-size:1.1rem; color:var(--gold);">${formatScore(m.homeScore)} - ${formatScore(m.awayScore)}</b></td>
-      <td><span class="standings-team">${flag(m.away)}${escapeHtml(m.away)}</span></td>
-      <td style="color: ${/live|half|progress|playing/i.test(m.status || "") ? 'var(--green)' : 'inherit'}; font-weight: bold;">
-        ${escapeHtml(m.status || "Scheduled")}
-      </td>
-    </tr>
-  `).join("");
+  if (els.liveMatchTableBody) {
+    els.liveMatchTableBody.innerHTML = sorted.map(m => `
+      <tr>
+        <td>${m.number || ""}</td>
+        <td><span class="standings-team">${flag(m.home)}${escapeHtml(m.home)}</span></td>
+        <td><b style="font-size:1.1rem; color:var(--gold);">${formatScore(m.homeScore)} - ${formatScore(m.awayScore)}</b></td>
+        <td><span class="standings-team">${flag(m.away)}${escapeHtml(m.away)}</span></td>
+        <td style="color: ${/live|half|progress|playing/i.test(m.status || "") ? 'var(--green)' : 'inherit'}; font-weight: bold;">
+          ${escapeHtml(m.status || "Scheduled")}
+        </td>
+      </tr>
+    `).join("");
+  }
+}
+
+function renderOfficialNotes(feed) {
+  if (!els.officialNotes) return;
+  els.officialNotes.innerHTML = `
+    <article class="team-award-card">
+      <span>${feed.connected ? t("feedReady") : t("feedFallback")}</span>
+      <b>${escapeHtml(feed.source)}</b>
+      <small><a href="${escapeHtml(feed.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(feed.sourceUrl)}</a></small>
+    </article>
+    ${(feed.notes || []).map(note => `<p class="tracker-note">${escapeHtml(note)}</p>`).join("")}
+  `;
 }
 
 function renderStandings() {
   if (!liveFeed) return;
   const grid = document.getElementById("standingsGrid");
+  if (!grid) return;
+
   const thirds = [];
   
   grid.innerHTML = Object.keys(GROUPS).map(grp => {
@@ -400,16 +405,18 @@ function renderStandings() {
       </article>`;
   }).join("");
 
-  // Render Third Place
   thirds.sort((a, b) => b.pts - a.pts || b.gd - a.gd || b.gf - a.gf);
-  document.getElementById('thirdPlaceBody').innerHTML = thirds.map((r, i) => `
-    <tr class="${i < 8 ? "advance-row" : "muted-row"}">
-      <td>${i + 1}</td><td><span class="standings-team">${flag(r.team)}${escapeHtml(r.team)}</span></td><td>${r.group}</td><td><b>${r.pts}</b></td><td>${r.gd > 0 ? "+"+r.gd : r.gd}</td><td>${r.gf}</td>
-    </tr>`).join("");
+  if (els.thirdPlaceBody) {
+    els.thirdPlaceBody.innerHTML = thirds.map((r, i) => `
+      <tr class="${i < 8 ? "advance-row" : "muted-row"}">
+        <td>${i + 1}</td><td><span class="standings-team">${flag(r.team)}${escapeHtml(r.team)}</span></td><td>${r.group}</td><td><b>${r.pts}</b></td><td>${r.gd > 0 ? "+"+r.gd : r.gd}</td><td>${r.gf}</td>
+      </tr>`).join("");
+  }
 }
 
 function renderSquads() {
   const grid = document.getElementById("squadsGrid");
+  if (!grid) return;
   const allTeams = Object.values(GROUPS).flat().sort();
   grid.innerHTML = allTeams.map(team => `
     <article class="stadium-card">
@@ -445,21 +452,12 @@ window.closeMatchModal = function() {
   document.getElementById('matchModal').classList.remove('is-active');
 };
 
-function renderOfficialNotes(feed) {
-  els.officialNotes.innerHTML = `
-    <article class="team-award-card">
-      <span>${feed.connected ? t("feedReady") : t("feedFallback")}</span>
-      <b>${escapeHtml(feed.source)}</b>
-      <small><a href="${escapeHtml(feed.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(feed.sourceUrl)}</a></small>
-    </article>
-    ${(feed.notes || []).map(note => `<p class="tracker-note">${escapeHtml(note)}</p>`).join("")}
-  `;
-}
-
 function formatScore(value) { return Number.isFinite(Number(value)) ? String(value) : "-"; }
 
 function renderStadiums() {
-  document.getElementById("stadiumGrid").innerHTML = STADIUMS.map(([city, stadium, country, capacity]) => {
+  const grid = document.getElementById("stadiumGrid");
+  if (!grid) return;
+  grid.innerHTML = STADIUMS.map(([city, stadium, country, capacity]) => {
     const matchCount = fixtures.filter((match) => match.city === city).length;
     return `
       <article class="stadium-card">
@@ -482,22 +480,23 @@ function updateCountdown() {
   const hours = Math.floor((remaining % 86400000) / 3600000);
   const minutes = Math.floor((remaining % 3600000) / 60000);
   const seconds = Math.floor((remaining % 60000) / 1000);
-  document.getElementById("days").textContent = days;
-  document.getElementById("hours").textContent = String(hours).padStart(2, "0");
-  document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
-  document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
+  if(document.getElementById("days")) document.getElementById("days").textContent = days;
+  if(document.getElementById("hours")) document.getElementById("hours").textContent = String(hours).padStart(2, "0");
+  if(document.getElementById("minutes")) document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
+  if(document.getElementById("seconds")) document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
 }
 
 function updateNetworkStatus() {
   const offline = !navigator.onLine;
-  document.getElementById("offlineStatus").textContent = offline ? t("offline") : t("online");
-  document.getElementById("offlineStatus").classList.toggle("is-offline", offline);
+  if(els.offlineStatus) {
+    els.offlineStatus.textContent = offline ? t("offline") : t("online");
+    els.offlineStatus.classList.toggle("is-offline", offline);
+  }
 }
 
 function wireEvents() {
   document.querySelectorAll(".nav-button, [data-jump]").forEach(b => b.addEventListener("click", e => setView((e.currentTarget.dataset.view || e.currentTarget.dataset.jump))));
   
-  // Live Sub-nav logic
   document.querySelectorAll('.live-tab').forEach(b => b.addEventListener('click', e => {
     document.querySelectorAll('.live-tab').forEach(tab => tab.classList.remove('is-active'));
     document.querySelectorAll('.live-view').forEach(view => view.style.display = 'none');
@@ -505,11 +504,14 @@ function wireEvents() {
     document.getElementById(e.target.dataset.liveTarget).style.display = 'block';
   }));
 
-  els.language.addEventListener("change", e => { lang = e.target.value; localStorage.setItem("wc26-lang", lang); applyTranslations(); });
-  els.timezone.addEventListener("change", e => { timezone = e.target.value; localStorage.setItem("wc26-timezone", timezone); renderSchedule(); });
-  els.timeFormat.addEventListener("change", e => { timeFormat = e.target.value; localStorage.setItem("wc26-time-format", timeFormat); renderSchedule(); });
-  els.groupFilter.addEventListener("change", renderSchedule);
-  document.getElementById("refreshLiveButton").addEventListener("click", fetchLiveFeed);
+  if(els.language) els.language.addEventListener("change", e => { lang = e.target.value; localStorage.setItem("wc26-lang", lang); applyTranslations(); });
+  if(els.timezone) els.timezone.addEventListener("change", e => { timezone = e.target.value; localStorage.setItem("wc26-timezone", timezone); renderSchedule(); });
+  if(els.timeFormat) els.timeFormat.addEventListener("change", e => { timeFormat = e.target.value; localStorage.setItem("wc26-time-format", timeFormat); renderSchedule(); });
+  if(els.groupFilter) els.groupFilter.addEventListener("change", renderSchedule);
+  
+  const refreshBtn = document.getElementById("refreshLiveButton");
+  if(refreshBtn) refreshBtn.addEventListener("click", fetchLiveFeed);
+  
   window.addEventListener("online", updateNetworkStatus);
   window.addEventListener("offline", updateNetworkStatus);
 
