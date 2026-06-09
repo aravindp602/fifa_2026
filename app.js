@@ -1,10 +1,16 @@
 const GROUPS = {
-  A: ["Mexico", "South Africa", "South Korea", "Czechia"], B: ["Canada", "Switzerland", "Qatar", "Bosnia"],
-  C: ["Brazil", "Morocco", "Scotland", "Haiti"], D: ["USA", "Australia", "Paraguay", "Turkiye"],
-  E: ["Germany", "Ivory Coast", "Ecuador", "Curacao"], F: ["Netherlands", "Japan", "Tunisia", "Sweden"],
-  G: ["Belgium", "Iran", "Egypt", "New Zealand"], H: ["Spain", "Uruguay", "Saudi Arabia", "Cape Verde"],
-  I: ["France", "Senegal", "Norway", "Iraq"], J: ["Argentina", "Algeria", "Austria", "Jordan"],
-  K: ["Portugal", "Colombia", "Uzbekistan", "Congo DR"], L: ["England", "Croatia", "Ghana", "Panama"]
+  A: ["Mexico", "South Africa", "South Korea", "Czechia"],
+  B: ["Canada", "Switzerland", "Qatar", "Bosnia"],
+  C: ["Brazil", "Morocco", "Scotland", "Haiti"],
+  D: ["USA", "Australia", "Paraguay", "Turkiye"],
+  E: ["Germany", "Ivory Coast", "Ecuador", "Curacao"],
+  F: ["Netherlands", "Japan", "Tunisia", "Sweden"],
+  G: ["Belgium", "Iran", "Egypt", "New Zealand"],
+  H: ["Spain", "Uruguay", "Saudi Arabia", "Cape Verde"],
+  I: ["France", "Senegal", "Norway", "Iraq"],
+  J: ["Argentina", "Algeria", "Austria", "Jordan"],
+  K: ["Portugal", "Colombia", "Uzbekistan", "Congo DR"],
+  L: ["England", "Croatia", "Ghana", "Panama"]
 };
 
 const FLAGS = {
@@ -94,14 +100,22 @@ const FIXTURES = [
 ];
 
 const STADIUMS = [
-  ["Atlanta", "Mercedes-Benz Stadium", "USA", "75,000"], ["Boston", "Gillette Stadium", "USA", "65,878"],
-  ["Dallas", "AT&T Stadium", "USA", "80,000"], ["Guadalajara", "Estadio Akron", "Mexico", "48,071"],
-  ["Houston", "NRG Stadium", "USA", "72,220"], ["Kansas City", "Arrowhead Stadium", "USA", "76,416"],
-  ["Los Angeles", "SoFi Stadium", "USA", "70,240"], ["Mexico City", "Estadio Azteca", "Mexico", "83,264"],
-  ["Miami", "Hard Rock Stadium", "USA", "65,326"], ["Monterrey", "Estadio BBVA", "Mexico", "53,500"],
-  ["New York New Jersey", "MetLife Stadium", "USA", "82,500"], ["Philadelphia", "Lincoln Financial Field", "USA", "69,176"],
-  ["San Francisco Bay Area", "Levi's Stadium", "USA", "68,500"], ["Seattle", "Lumen Field", "USA", "68,740"],
-  ["Toronto", "BMO Field", "Canada", "45,000"], ["Vancouver", "BC Place", "Canada", "54,500"]
+  ["Atlanta", "Mercedes-Benz Stadium", "USA", "75,000"],
+  ["Boston", "Gillette Stadium", "USA", "65,878"],
+  ["Dallas", "AT&T Stadium", "USA", "80,000"],
+  ["Guadalajara", "Estadio Akron", "Mexico", "48,071"],
+  ["Houston", "NRG Stadium", "USA", "72,220"],
+  ["Kansas City", "Arrowhead Stadium", "USA", "76,416"],
+  ["Los Angeles", "SoFi Stadium", "USA", "70,240"],
+  ["Mexico City", "Estadio Azteca", "Mexico", "83,264"],
+  ["Miami", "Hard Rock Stadium", "USA", "65,326"],
+  ["Monterrey", "Estadio BBVA", "Mexico", "53,500"],
+  ["New York New Jersey", "MetLife Stadium", "USA", "82,500"],
+  ["Philadelphia", "Lincoln Financial Field", "USA", "69,176"],
+  ["San Francisco Bay Area", "Levi's Stadium", "USA", "68,500"],
+  ["Seattle", "Lumen Field", "USA", "68,740"],
+  ["Toronto", "BMO Field", "Canada", "45,000"],
+  ["Vancouver", "BC Place", "Canada", "54,500"]
 ];
 
 const TRANSLATIONS = {
@@ -122,7 +136,7 @@ const TRANSLATIONS = {
     stadiumsEyebrow: "Host cities", stadiumsTitle: "Stadium guide", footerNote: "Static CI/CD PWA. No ads, no backend servers.",
     allGroups: "All groups", match: "Match", local: "local", capacity: "Capacity", online: "Online", offline: "Offline ready",
     matchCenter: "Match Center", standings: "Standings", squads: "Squads", standingsNote: "These tables update automatically based on official match results.", squadsNote: "Official 26-man tournament rosters.",
-    clickMatchDetails: "Click a match to view lineups & details", startingXi: "Starting XI", subs: "Substitutes"
+    clickMatchDetails: "Click a match to view details", startingXi: "Starting XI", subs: "Substitutes"
   },
   es: {
     navHome: "Inicio", navSchedule: "Calendario", navLive: "Vivo", navStadiums: "Sedes",
@@ -138,10 +152,10 @@ const TRANSLATIONS = {
     connecting: "Conectando al feed", liveMatch: "Partido en vivo", currentScores: "Marcadores actuales", matchResults: "Resultados",
     status: "Estado", officialNotes: "Notas del feed", feedReady: "Feed conectado", feedFallback: "Feed no conectado",
     goldenBoot: "Bota de Oro", topScorer: "Maximo goleador", playmaker: "Creador", topAssists: "Mas asistencias", motmRace: "Jugador del partido", mostMotm: "Mas premios",
-    stadiumsEyebrow: "Ciudades sede", stadiumsTitle: "Guia de estadios", footerNote: "PWA estatica. Sin backend.",
+    stadiumsEyebrow: "Ciudades sede", stadiumsTitle: "Guia de estadios", footerNote: "PWA vanilla estatica.",
     allGroups: "Todos", match: "Partido", local: "local", capacity: "Capacidad", online: "Online", offline: "Lista offline",
     matchCenter: "Partidos", standings: "Posiciones", squads: "Plantillas", standingsNote: "Estas tablas se actualizan automaticamente basadas en resultados oficiales.", squadsNote: "Plantillas oficiales de 26 jugadores.",
-    clickMatchDetails: "Haz clic para ver alineaciones", startingXi: "Titulares", subs: "Suplentes"
+    clickMatchDetails: "Haz clic para ver detalles", startingXi: "Titulares", subs: "Suplentes"
   },
   fr: {
     navHome: "Accueil", navSchedule: "Calendrier", navLive: "Direct", navStadiums: "Stades",
@@ -157,10 +171,10 @@ const TRANSLATIONS = {
     connecting: "Connexion au flux", liveMatch: "Match en direct", currentScores: "Scores actuels", matchResults: "Resultats",
     status: "Statut", officialNotes: "Notes du flux", feedReady: "Flux connecte", feedFallback: "Flux non connecte",
     goldenBoot: "Soulier d'or", topScorer: "Meilleur buteur", playmaker: "Passeur", topAssists: "Meilleures passes", motmRace: "Homme du match", mostMotm: "Plus de prix",
-    stadiumsEyebrow: "Villes hotes", stadiumsTitle: "Guide des stades", footerNote: "PWA statique. Sans backend.",
+    stadiumsEyebrow: "Villes hotes", stadiumsTitle: "Guide des stades", footerNote: "PWA vanilla statique.",
     allGroups: "Tous", match: "Match", local: "local", capacity: "Capacite", online: "En ligne", offline: "Pret hors ligne",
     matchCenter: "Matchs", standings: "Classements", squads: "Effectifs", standingsNote: "Ces classements sont mis a jour automatiquement selon les resultats officiels.", squadsNote: "Effectifs officiels de 26 joueurs.",
-    clickMatchDetails: "Cliquez pour voir les compositions", startingXi: "Titulaires", subs: "Remplaçants"
+    clickMatchDetails: "Cliquez pour voir les details", startingXi: "Titulaires", subs: "Remplaçants"
   }
 };
 
@@ -179,23 +193,26 @@ let timezone = localStorage.getItem("wc26-timezone") || Intl.DateTimeFormat().re
 let timeFormat = localStorage.getItem("wc26-time-format") || "12";
 let liveFeed = null;
 
-const els = {
-  language: document.getElementById("languageSelect"),
-  timezone: document.getElementById("timezoneSelect"),
-  timeFormat: document.getElementById("timeFormatSelect"),
-  groupFilter: document.getElementById("groupFilter"),
-  scheduleList: document.getElementById("scheduleList"),
-  thirdPlaceBody: document.getElementById("thirdPlaceBody"),
-  offlineStatus: document.getElementById("offlineStatus"),
-  liveFeedStatus: document.getElementById("liveFeedStatus"),
-  liveLastUpdated: document.getElementById("liveLastUpdated"),
-  liveScoreRail: document.getElementById("liveScoreRail"),
-  liveMatchTableBody: document.getElementById("liveMatchTableBody"),
-  officialNotes: document.getElementById("officialNotes"),
-  goldenBootLeader: document.getElementById("goldenBootLeader"),
-  assistLeader: document.getElementById("assistLeader"),
-  motmLeader: document.getElementById("motmLeader")
-};
+// Define elements carefully
+const els = {};
+
+function initEls() {
+  els.language = document.getElementById("languageSelect");
+  els.timezone = document.getElementById("timezoneSelect");
+  els.timeFormat = document.getElementById("timeFormatSelect");
+  els.groupFilter = document.getElementById("groupFilter");
+  els.scheduleList = document.getElementById("scheduleList");
+  els.thirdPlaceBody = document.getElementById("thirdPlaceBody");
+  els.offlineStatus = document.getElementById("offlineStatus");
+  els.liveFeedStatus = document.getElementById("liveFeedStatus");
+  els.liveLastUpdated = document.getElementById("liveLastUpdated");
+  els.liveScoreRail = document.getElementById("liveScoreRail");
+  els.liveMatchTableBody = document.getElementById("liveMatchTableBody");
+  els.officialNotes = document.getElementById("officialNotes");
+  els.goldenBootLeader = document.getElementById("goldenBootLeader");
+  els.assistLeader = document.getElementById("assistLeader");
+  els.motmLeader = document.getElementById("motmLeader");
+}
 
 function t(key) { return TRANSLATIONS[lang][key] || TRANSLATIONS.en[key] || key; }
 function escapeHtml(value) { return String(value).replace(/[&<>"']/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char])); }
@@ -234,7 +251,7 @@ function formatFixtureDate(utc) {
 }
 
 function renderSchedule() {
-  if(!els.scheduleList) return;
+  if(!els.scheduleList || !els.groupFilter) return;
   const vis = els.groupFilter.value === "all" ? fixtures : fixtures.filter(m => m.group === els.groupFilter.value);
   els.scheduleList.innerHTML = vis.map(m => {
     const d = formatFixtureDate(m.utc);
@@ -269,7 +286,7 @@ async function fetchLiveFeed() {
 
 function emptyLiveFeed() {
   return {
-    source: "local-fallback", sourceUrl: "https://www.fifa.com", updatedAt: new Date().toISOString(),
+    source: "local-fallback", sourceUrl: "https://www.football-data.org/", updatedAt: new Date().toISOString(),
     matches: fixtures.map(m => ({ id: m.id, number: m.number, group: m.group, home: m.home, away: m.away, homeScore: null, awayScore: null, status: "Scheduled", utc: m.utc })),
     awards: { goldenBoot: [], assists: [], manOfTheMatch: [] }, notes: ["Please set up fetch-scores.yml in GitHub Actions."]
   };
@@ -277,7 +294,7 @@ function emptyLiveFeed() {
 
 function normalizeLiveFeed(feed, connected) {
   return {
-    connected, source: feed.source || "FIFA", sourceUrl: feed.sourceUrl || "https://www.fifa.com",
+    connected, source: feed.source || "FIFA", sourceUrl: feed.sourceUrl || "https://www.football-data.org/",
     updatedAt: feed.updatedAt || new Date().toISOString(), matches: Array.isArray(feed.matches) ? feed.matches : [],
     awards: {
       goldenBoot: Array.isArray(feed.awards?.goldenBoot) ? feed.awards.goldenBoot : [],
@@ -313,12 +330,12 @@ function renderAwards() {
 
 function renderLiveScores(liveMatches) {
   const sorted = [...liveMatches].sort((a, b) => new Date(a.utc || 0) - new Date(b.utc || 0));
-  const active = sorted.filter(m => /live|half|progress|playing/i.test(m.status || ""));
+  const active = sorted.filter(m => /live|half|progress|playing|in_play/i.test(m.status || ""));
   const railMatches = active.length ? active : sorted.slice(0, 4);
   
   if (els.liveScoreRail) {
     els.liveScoreRail.innerHTML = railMatches.map(m => {
-      const isLive = /live|half|progress|playing/i.test(m.status || "");
+      const isLive = /live|half|progress|playing|in_play/i.test(m.status || "");
       return `
       <article class="live-score-card-refined ${isLive ? 'is-live' : ''}" onclick="openMatchModal('${m.id}')">
         <div class="live-match-meta">
@@ -346,7 +363,7 @@ function renderLiveScores(liveMatches) {
         <td><span class="standings-team">${flag(m.home)}${escapeHtml(m.home)}</span></td>
         <td><b style="font-size:1.1rem; color:var(--gold);">${formatScore(m.homeScore)} - ${formatScore(m.awayScore)}</b></td>
         <td><span class="standings-team">${flag(m.away)}${escapeHtml(m.away)}</span></td>
-        <td style="color: ${/live|half|progress|playing/i.test(m.status || "") ? 'var(--green)' : 'inherit'}; font-weight: bold;">
+        <td style="color: ${/live|half|progress|playing|in_play/i.test(m.status || "") ? 'var(--green)' : 'inherit'}; font-weight: bold;">
           ${escapeHtml(m.status || "Scheduled")}
         </td>
       </tr>
@@ -497,6 +514,7 @@ function updateNetworkStatus() {
 function wireEvents() {
   document.querySelectorAll(".nav-button, [data-jump]").forEach(b => b.addEventListener("click", e => setView((e.currentTarget.dataset.view || e.currentTarget.dataset.jump))));
   
+  // Live Sub-nav logic
   document.querySelectorAll('.live-tab').forEach(b => b.addEventListener('click', e => {
     document.querySelectorAll('.live-tab').forEach(tab => tab.classList.remove('is-active'));
     document.querySelectorAll('.live-view').forEach(view => view.style.display = 'none');
@@ -519,6 +537,7 @@ function wireEvents() {
 }
 
 function init() {
+  initEls(); // Safely bind all elements
   buildControls(); wireEvents(); applyTranslations();
   renderStadiums(); fetchLiveFeed();
   setInterval(updateCountdown, 1000); setInterval(fetchLiveFeed, 60000);
