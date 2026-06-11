@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-11T20:37:02.366Z",
+  "updatedAt": "2026-06-11T22:27:13.824Z",
   "matches": [
     {
       "id": "m01",
@@ -12,7 +12,7 @@
       "away": "South Africa",
       "homeScore": 2,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-11T19:00:00Z"
     },
     {
