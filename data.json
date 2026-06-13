@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-13T22:13:49.064Z",
+  "updatedAt": "2026-06-13T23:34:56.254Z",
   "matches": [
     {
       "id": "m01",
@@ -65,8 +65,8 @@
       "group": "C",
       "home": "Brazil",
       "away": "Morocco",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "status": "Live",
       "utc": "2026-06-13T22:00:00Z"
     },
