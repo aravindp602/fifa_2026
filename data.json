@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-13T20:57:52.999Z",
+  "updatedAt": "2026-06-13T22:13:49.064Z",
   "matches": [
     {
       "id": "m01",
@@ -54,9 +54,9 @@
       "group": "B",
       "home": "Qatar",
       "away": "Switzerland",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-13T19:00:00Z"
     },
     {
@@ -65,9 +65,9 @@
       "group": "C",
       "home": "Brazil",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-13T22:00:00Z"
     },
     {
