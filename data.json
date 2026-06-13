@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-12T23:43:28.381Z",
+  "updatedAt": "2026-06-13T01:54:27.133Z",
   "matches": [
     {
       "id": "m01",
@@ -43,9 +43,9 @@
       "group": "D",
       "home": "USA",
       "away": "Paraguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-13T01:00:00Z"
     },
     {
