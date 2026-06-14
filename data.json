@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-14T19:01:45.665Z",
+  "updatedAt": "2026-06-14T20:24:09.762Z",
   "matches": [
     {
       "id": "m01",
@@ -109,9 +109,9 @@
       "group": "F",
       "home": "Netherlands",
       "away": "Japan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-14T20:00:00Z"
     },
     {
