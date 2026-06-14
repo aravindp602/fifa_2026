@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-14T17:48:16.095Z",
+  "updatedAt": "2026-06-14T19:01:45.665Z",
   "matches": [
     {
       "id": "m01",
@@ -98,9 +98,9 @@
       "group": "E",
       "home": "Germany",
       "away": "Curaçao",
-      "homeScore": 2,
+      "homeScore": 7,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-14T17:00:00Z"
     },
     {
