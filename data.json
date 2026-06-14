@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-14T21:51:29.272Z",
+  "updatedAt": "2026-06-14T22:59:58.465Z",
   "matches": [
     {
       "id": "m01",
@@ -111,7 +111,7 @@
       "away": "Japan",
       "homeScore": 2,
       "awayScore": 2,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-14T20:00:00Z"
     },
     {
