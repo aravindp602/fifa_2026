@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-15T20:05:52.227Z",
+  "updatedAt": "2026-06-15T22:27:23.655Z",
   "matches": [
     {
       "id": "m01",
@@ -153,9 +153,9 @@
       "group": "G",
       "home": "Belgium",
       "away": "Egypt",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-15T19:00:00Z"
     },
     {
@@ -164,9 +164,9 @@
       "group": "H",
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-15T22:00:00Z"
     },
     {
