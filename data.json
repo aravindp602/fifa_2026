@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-14T22:59:58.465Z",
+  "updatedAt": "2026-06-15T00:20:28.563Z",
   "matches": [
     {
       "id": "m01",
@@ -120,9 +120,9 @@
       "group": "E",
       "home": "Ivory Coast",
       "away": "Ecuador",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-14T23:00:00Z"
     },
     {
