@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-16T21:46:40.206Z",
+  "updatedAt": "2026-06-16T23:14:30.088Z",
   "matches": [
     {
       "id": "m01",
@@ -197,9 +197,9 @@
       "group": "I",
       "home": "Iraq",
       "away": "Norway",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "Live",
       "utc": "2026-06-16T22:00:00Z"
     },
     {
