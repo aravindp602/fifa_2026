@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-16T15:31:25.977Z",
+  "updatedAt": "2026-06-16T19:05:11.231Z",
   "matches": [
     {
       "id": "m01",
@@ -186,9 +186,9 @@
       "group": "I",
       "home": "France",
       "away": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-16T19:00:00Z"
     },
     {
