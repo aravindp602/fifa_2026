@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-16T00:13:41.549Z",
+  "updatedAt": "2026-06-16T05:37:25.273Z",
   "matches": [
     {
       "id": "m01",
@@ -175,9 +175,9 @@
       "group": "G",
       "home": "Iran",
       "away": "New Zealand",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "Finished",
       "utc": "2026-06-16T01:00:00Z"
     },
     {
