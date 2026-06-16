@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-15T22:27:23.655Z",
+  "updatedAt": "2026-06-16T00:13:41.549Z",
   "matches": [
     {
       "id": "m01",
@@ -164,9 +164,9 @@
       "group": "H",
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-15T22:00:00Z"
     },
     {
