@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-17T17:39:28.891Z",
+  "updatedAt": "2026-06-17T19:50:27.793Z",
   "matches": [
     {
       "id": "m01",
@@ -231,8 +231,8 @@
       "home": "Portugal",
       "away": "Congo DR",
       "homeScore": 1,
-      "awayScore": 0,
-      "status": "Live",
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-17T17:00:00Z"
     },
     {
