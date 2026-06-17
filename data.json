@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-16T23:14:30.088Z",
+  "updatedAt": "2026-06-17T01:44:01.766Z",
   "matches": [
     {
       "id": "m01",
@@ -198,8 +198,8 @@
       "home": "Iraq",
       "away": "Norway",
       "homeScore": 1,
-      "awayScore": 2,
-      "status": "Live",
+      "awayScore": 4,
+      "status": "Finished",
       "utc": "2026-06-16T22:00:00Z"
     },
     {
@@ -208,9 +208,9 @@
       "group": "J",
       "home": "Argentina",
       "away": "Algeria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-17T01:00:00Z"
     },
     {
