@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-19T20:05:10.291Z",
+  "updatedAt": "2026-06-19T21:19:24.203Z",
   "matches": [
     {
       "id": "m01",
@@ -320,7 +320,7 @@
       "away": "Australia",
       "homeScore": 2,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-19T19:00:00Z"
     },
     {
