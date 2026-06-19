@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-18T22:09:32.579Z",
+  "updatedAt": "2026-06-19T00:00:23.206Z",
   "matches": [
     {
       "id": "m01",
@@ -296,7 +296,7 @@
       "group": "B",
       "home": "Canada",
       "away": "Qatar",
-      "homeScore": 0,
+      "homeScore": 6,
       "awayScore": 0,
       "status": "Live",
       "utc": "2026-06-18T22:00:00Z"
