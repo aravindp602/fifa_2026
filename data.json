@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-20T21:25:24.115Z",
+  "updatedAt": "2026-06-20T22:42:43.974Z",
   "matches": [
     {
       "id": "m01",
@@ -373,9 +373,9 @@
       "group": "E",
       "home": "Germany",
       "away": "Ivory Coast",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-20T20:00:00Z"
     },
     {
