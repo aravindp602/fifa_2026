@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-19T23:40:44.640Z",
+  "updatedAt": "2026-06-20T01:52:26.898Z",
   "matches": [
     {
       "id": "m01",
@@ -331,7 +331,7 @@
       "away": "Morocco",
       "homeScore": 0,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-19T22:00:00Z"
     },
     {
@@ -340,9 +340,9 @@
       "group": "C",
       "home": "Brazil",
       "away": "Haiti",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-20T00:30:00Z"
     },
     {
