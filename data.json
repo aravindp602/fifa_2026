@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-20T16:56:27.191Z",
+  "updatedAt": "2026-06-20T18:17:07.130Z",
   "matches": [
     {
       "id": "m01",
@@ -362,9 +362,9 @@
       "group": "F",
       "home": "Netherlands",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-20T17:00:00Z"
     },
     {
