@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-20T01:52:26.898Z",
+  "updatedAt": "2026-06-20T06:17:44.816Z",
   "matches": [
     {
       "id": "m01",
@@ -342,7 +342,7 @@
       "away": "Haiti",
       "homeScore": 3,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-20T00:30:00Z"
     },
     {
@@ -351,9 +351,9 @@
       "group": "D",
       "home": "Turkey",
       "away": "Paraguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-20T03:00:00Z"
     },
     {
