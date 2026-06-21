@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-21T03:25:16.728Z",
+  "updatedAt": "2026-06-21T08:15:12.456Z",
   "matches": [
     {
       "id": "m01",
@@ -395,9 +395,9 @@
       "group": "F",
       "home": "Tunisia",
       "away": "Japan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 4,
+      "status": "Finished",
       "utc": "2026-06-21T04:00:00Z"
     },
     {
