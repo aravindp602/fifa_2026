@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-21T18:25:03.182Z",
+  "updatedAt": "2026-06-21T20:12:26.644Z",
   "matches": [
     {
       "id": "m01",
@@ -417,9 +417,9 @@
       "group": "G",
       "home": "Belgium",
       "away": "Iran",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-21T19:00:00Z"
     },
     {
