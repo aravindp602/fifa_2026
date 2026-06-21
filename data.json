@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-21T21:43:33.299Z",
+  "updatedAt": "2026-06-21T22:51:14.582Z",
   "matches": [
     {
       "id": "m01",
@@ -428,9 +428,9 @@
       "group": "H",
       "home": "Uruguay",
       "away": "Cape Verde Islands",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "Live",
       "utc": "2026-06-21T22:00:00Z"
     },
     {
