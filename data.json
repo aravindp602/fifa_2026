@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-21T15:21:58.980Z",
+  "updatedAt": "2026-06-21T17:00:17.460Z",
   "matches": [
     {
       "id": "m01",
@@ -406,9 +406,9 @@
       "group": "H",
       "home": "Spain",
       "away": "Saudi Arabia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-21T16:00:00Z"
     },
     {
