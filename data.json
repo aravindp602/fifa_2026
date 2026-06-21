@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-20T23:52:14.077Z",
+  "updatedAt": "2026-06-21T03:25:16.728Z",
   "matches": [
     {
       "id": "m01",
@@ -384,9 +384,9 @@
       "group": "E",
       "home": "Ecuador",
       "away": "Curaçao",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Finished",
       "utc": "2026-06-21T00:00:00Z"
     },
     {
