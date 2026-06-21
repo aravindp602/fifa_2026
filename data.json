@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-21T20:12:26.644Z",
+  "updatedAt": "2026-06-21T21:43:33.299Z",
   "matches": [
     {
       "id": "m01",
@@ -419,7 +419,7 @@
       "away": "Iran",
       "homeScore": 0,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-21T19:00:00Z"
     },
     {
