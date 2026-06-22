@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-22T00:03:30.481Z",
+  "updatedAt": "2026-06-22T05:26:20.888Z",
   "matches": [
     {
       "id": "m01",
@@ -430,7 +430,7 @@
       "away": "Cape Verde Islands",
       "homeScore": 2,
       "awayScore": 2,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-21T22:00:00Z"
     },
     {
@@ -439,9 +439,9 @@
       "group": "G",
       "home": "New Zealand",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "Finished",
       "utc": "2026-06-22T01:00:00Z"
     },
     {
