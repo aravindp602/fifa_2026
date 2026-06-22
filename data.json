@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-22T16:03:08.710Z",
+  "updatedAt": "2026-06-22T19:39:52.552Z",
   "matches": [
     {
       "id": "m01",
@@ -450,9 +450,9 @@
       "group": "J",
       "home": "Argentina",
       "away": "Austria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "Finished",
       "utc": "2026-06-22T17:00:00Z"
     },
     {
@@ -822,7 +822,7 @@
       "id": "m75",
       "number": 75,
       "group": "",
-      "home": null,
+      "home": "Germany",
       "away": null,
       "homeScore": null,
       "awayScore": null,
@@ -866,7 +866,7 @@
       "id": "m79",
       "number": 79,
       "group": "",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "homeScore": null,
       "awayScore": null,
@@ -899,7 +899,7 @@
       "id": "m82",
       "number": 82,
       "group": "",
-      "home": null,
+      "home": "USA",
       "away": null,
       "homeScore": null,
       "awayScore": null,
