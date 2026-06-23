@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-23T04:37:08.977Z",
+  "updatedAt": "2026-06-23T08:19:38.046Z",
   "matches": [
     {
       "id": "m01",
@@ -484,8 +484,8 @@
       "home": "Jordan",
       "away": "Algeria",
       "homeScore": 1,
-      "awayScore": 1,
-      "status": "Live",
+      "awayScore": 2,
+      "status": "Finished",
       "utc": "2026-06-23T03:00:00Z"
     },
     {
@@ -954,7 +954,7 @@
       "id": "m87",
       "number": 87,
       "group": "",
-      "home": null,
+      "home": "Argentina",
       "away": null,
       "homeScore": null,
       "awayScore": null,
