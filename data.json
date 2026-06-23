@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-23T20:36:32.036Z",
+  "updatedAt": "2026-06-23T22:03:14.463Z",
   "matches": [
     {
       "id": "m01",
@@ -507,7 +507,7 @@
       "away": "Ghana",
       "homeScore": 0,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-23T20:00:00Z"
     },
     {
