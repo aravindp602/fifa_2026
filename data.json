@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-23T22:03:14.463Z",
+  "updatedAt": "2026-06-23T23:18:56.435Z",
   "matches": [
     {
       "id": "m01",
@@ -516,9 +516,9 @@
       "group": "L",
       "home": "Panama",
       "away": "Croatia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-23T23:00:00Z"
     },
     {
