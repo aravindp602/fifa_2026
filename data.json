@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-23T18:29:59.933Z",
+  "updatedAt": "2026-06-23T20:36:32.036Z",
   "matches": [
     {
       "id": "m01",
@@ -494,9 +494,9 @@
       "group": "K",
       "home": "Portugal",
       "away": "Uzbekistan",
-      "homeScore": 4,
+      "homeScore": 5,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-23T17:00:00Z"
     },
     {
@@ -505,9 +505,9 @@
       "group": "L",
       "home": "England",
       "away": "Ghana",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-23T20:00:00Z"
     },
     {
