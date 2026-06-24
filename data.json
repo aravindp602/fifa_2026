@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-24T20:02:29.872Z",
+  "updatedAt": "2026-06-24T21:41:22.846Z",
   "matches": [
     {
       "id": "m01",
@@ -538,9 +538,9 @@
       "group": "B",
       "home": "Switzerland",
       "away": "Canada",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-24T19:00:00Z"
     },
     {
@@ -549,9 +549,9 @@
       "group": "B",
       "home": "Bosnia-Herzegovina",
       "away": "Qatar",
-      "homeScore": 2,
+      "homeScore": 3,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-24T19:00:00Z"
     },
     {
