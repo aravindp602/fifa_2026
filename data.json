@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-25T00:06:41.703Z",
+  "updatedAt": "2026-06-25T04:22:03.369Z",
   "matches": [
     {
       "id": "m01",
@@ -582,9 +582,9 @@
       "group": "A",
       "home": "Czechia",
       "away": "Mexico",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "Finished",
       "utc": "2026-06-25T01:00:00Z"
     },
     {
@@ -593,9 +593,9 @@
       "group": "A",
       "home": "South Africa",
       "away": "South Korea",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "Finished",
       "utc": "2026-06-25T01:00:00Z"
     },
     {
@@ -800,8 +800,8 @@
       "id": "m73",
       "number": 73,
       "group": "",
-      "home": null,
-      "away": null,
+      "home": "South Africa",
+      "away": "Canada",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
