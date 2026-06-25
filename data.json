@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-25T21:52:35.974Z",
+  "updatedAt": "2026-06-25T23:12:30.039Z",
   "matches": [
     {
       "id": "m01",
@@ -606,7 +606,7 @@
       "away": "Germany",
       "homeScore": 2,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-25T20:00:00Z"
     },
     {
@@ -617,7 +617,7 @@
       "away": "Ivory Coast",
       "homeScore": 0,
       "awayScore": 2,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-25T20:00:00Z"
     },
     {
@@ -626,9 +626,9 @@
       "group": "F",
       "home": "Tunisia",
       "away": "Netherlands",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "Live",
       "utc": "2026-06-25T23:00:00Z"
     },
     {
@@ -637,9 +637,9 @@
       "group": "F",
       "home": "Japan",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-25T23:00:00Z"
     },
     {
