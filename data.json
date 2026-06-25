@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-25T17:56:27.291Z",
+  "updatedAt": "2026-06-25T20:07:08.412Z",
   "matches": [
     {
       "id": "m01",
@@ -604,9 +604,9 @@
       "group": "E",
       "home": "Ecuador",
       "away": "Germany",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "Live",
       "utc": "2026-06-25T20:00:00Z"
     },
     {
@@ -615,9 +615,9 @@
       "group": "E",
       "home": "Curaçao",
       "away": "Ivory Coast",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-25T20:00:00Z"
     },
     {
