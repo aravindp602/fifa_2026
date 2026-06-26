@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-25T23:12:30.039Z",
+  "updatedAt": "2026-06-26T01:31:37.531Z",
   "matches": [
     {
       "id": "m01",
@@ -626,9 +626,9 @@
       "group": "F",
       "home": "Tunisia",
       "away": "Netherlands",
-      "homeScore": 0,
-      "awayScore": 2,
-      "status": "Live",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "Finished",
       "utc": "2026-06-25T23:00:00Z"
     },
     {
@@ -637,9 +637,9 @@
       "group": "F",
       "home": "Japan",
       "away": "Sweden",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-25T23:00:00Z"
     },
     {
