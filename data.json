@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-26T05:52:45.107Z",
+  "updatedAt": "2026-06-26T08:56:02.265Z",
   "matches": [
     {
       "id": "m01",
@@ -844,7 +844,7 @@
       "id": "m77",
       "number": 77,
       "group": "",
-      "home": null,
+      "home": "Ivory Coast",
       "away": null,
       "homeScore": null,
       "awayScore": null,
