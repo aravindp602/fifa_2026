@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-26T20:05:38.157Z",
+  "updatedAt": "2026-06-26T21:38:51.509Z",
   "matches": [
     {
       "id": "m01",
@@ -671,8 +671,8 @@
       "home": "Norway",
       "away": "France",
       "homeScore": 1,
-      "awayScore": 3,
-      "status": "Live",
+      "awayScore": 4,
+      "status": "Finished",
       "utc": "2026-06-26T19:00:00Z"
     },
     {
@@ -681,9 +681,9 @@
       "group": "I",
       "home": "Senegal",
       "away": "Iraq",
-      "homeScore": 1,
+      "homeScore": 5,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-26T19:00:00Z"
     },
     {
