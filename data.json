@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-27T10:49:48.792Z",
+  "updatedAt": "2026-06-27T12:03:17.793Z",
   "matches": [
     {
       "id": "m01",
@@ -888,7 +888,7 @@
       "id": "m81",
       "number": 81,
       "group": "",
-      "home": null,
+      "home": "Belgium",
       "away": null,
       "homeScore": null,
       "awayScore": null,
@@ -910,7 +910,7 @@
       "id": "m83",
       "number": 83,
       "group": "",
-      "home": null,
+      "home": "Spain",
       "away": null,
       "homeScore": null,
       "awayScore": null,
