@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-27T22:39:40.752Z",
+  "updatedAt": "2026-06-27T23:41:41.861Z",
   "matches": [
     {
       "id": "m01",
@@ -738,7 +738,7 @@
       "away": "England",
       "homeScore": 0,
       "awayScore": 2,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-27T21:00:00Z"
     },
     {
@@ -747,9 +747,9 @@
       "group": "L",
       "home": "Croatia",
       "away": "Ghana",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-27T21:00:00Z"
     },
     {
@@ -758,9 +758,9 @@
       "group": "K",
       "home": "Colombia",
       "away": "Portugal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-27T23:30:00Z"
     },
     {
@@ -769,9 +769,9 @@
       "group": "K",
       "home": "Congo DR",
       "away": "Uzbekistan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-27T23:30:00Z"
     },
     {
@@ -867,7 +867,7 @@
       "number": 79,
       "group": "",
       "home": "Mexico",
-      "away": null,
+      "away": "Ecuador",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
@@ -877,7 +877,7 @@
       "id": "m80",
       "number": 80,
       "group": "",
-      "home": null,
+      "home": "England",
       "away": null,
       "homeScore": null,
       "awayScore": null,
@@ -922,7 +922,7 @@
       "number": 84,
       "group": "",
       "home": null,
-      "away": null,
+      "away": "Croatia",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
@@ -966,7 +966,7 @@
       "number": 88,
       "group": "",
       "home": null,
-      "away": null,
+      "away": "Ghana",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
