@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-27T21:31:13.966Z",
+  "updatedAt": "2026-06-27T22:39:40.752Z",
   "matches": [
     {
       "id": "m01",
@@ -737,7 +737,7 @@
       "home": "Panama",
       "away": "England",
       "homeScore": 0,
-      "awayScore": 0,
+      "awayScore": 2,
       "status": "Live",
       "utc": "2026-06-27T21:00:00Z"
     },
@@ -747,8 +747,8 @@
       "group": "L",
       "home": "Croatia",
       "away": "Ghana",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "status": "Live",
       "utc": "2026-06-27T21:00:00Z"
     },
