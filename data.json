@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-26T23:51:41.446Z",
+  "updatedAt": "2026-06-27T02:28:04.974Z",
   "matches": [
     {
       "id": "m01",
@@ -692,9 +692,9 @@
       "group": "H",
       "home": "Uruguay",
       "away": "Spain",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-27T00:00:00Z"
     },
     {
@@ -703,9 +703,9 @@
       "group": "H",
       "home": "Cape Verde Islands",
       "away": "Saudi Arabia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Finished",
       "utc": "2026-06-27T00:00:00Z"
     },
     {
