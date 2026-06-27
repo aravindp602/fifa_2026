@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-27T02:28:04.974Z",
+  "updatedAt": "2026-06-27T06:09:02.803Z",
   "matches": [
     {
       "id": "m01",
@@ -714,9 +714,9 @@
       "group": "G",
       "home": "New Zealand",
       "away": "Belgium",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 5,
+      "status": "Finished",
       "utc": "2026-06-27T03:00:00Z"
     },
     {
@@ -725,9 +725,9 @@
       "group": "G",
       "home": "Egypt",
       "away": "Iran",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-27T03:00:00Z"
     },
     {
