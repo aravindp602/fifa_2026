@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-28T20:00:29.907Z",
+  "updatedAt": "2026-06-28T21:14:14.489Z",
   "matches": [
     {
       "id": "m01",
@@ -803,8 +803,8 @@
       "home": "South Africa",
       "away": "Canada",
       "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-28T19:00:00Z"
     },
     {
