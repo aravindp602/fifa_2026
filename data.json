@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-27T23:41:41.861Z",
+  "updatedAt": "2026-06-28T01:53:47.494Z",
   "matches": [
     {
       "id": "m01",
@@ -760,7 +760,7 @@
       "away": "Portugal",
       "homeScore": 0,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-27T23:30:00Z"
     },
     {
@@ -769,9 +769,9 @@
       "group": "K",
       "home": "Congo DR",
       "away": "Uzbekistan",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-06-27T23:30:00Z"
     },
     {
