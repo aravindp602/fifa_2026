@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-28T22:17:24.990Z",
+  "updatedAt": "2026-06-28T23:34:16.424Z",
   "matches": [
     {
       "id": "m01",
@@ -976,7 +976,7 @@
       "id": "m89",
       "number": 89,
       "group": "",
-      "home": null,
+      "home": "Canada",
       "away": null,
       "homeScore": null,
       "awayScore": null,
