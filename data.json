@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-29T20:08:01.436Z",
+  "updatedAt": "2026-06-29T21:43:51.444Z",
   "matches": [
     {
       "id": "m01",
@@ -824,9 +824,9 @@
       "group": "",
       "home": "Germany",
       "away": "Paraguay",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "Live",
       "utc": "2026-06-29T20:30:00Z"
     },
     {
