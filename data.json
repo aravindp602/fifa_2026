@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-30T22:36:14.032Z",
+  "updatedAt": "2026-06-30T23:48:10.908Z",
   "matches": [
     {
       "id": "m01",
@@ -859,7 +859,7 @@
       "away": "Sweden",
       "homeScore": 3,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-06-30T21:00:00Z"
     },
     {
@@ -988,7 +988,7 @@
       "number": 90,
       "group": "",
       "home": "Paraguay",
-      "away": null,
+      "away": "France",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
