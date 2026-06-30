@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-30T19:07:46.621Z",
+  "updatedAt": "2026-06-30T21:04:12.366Z",
   "matches": [
     {
       "id": "m01",
@@ -857,9 +857,9 @@
       "group": "",
       "home": "France",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-30T21:00:00Z"
     },
     {
@@ -999,7 +999,7 @@
       "number": 91,
       "group": "",
       "home": "Brazil",
-      "away": null,
+      "away": "Norway",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
