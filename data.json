@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-29T23:43:12.219Z",
+  "updatedAt": "2026-06-30T01:51:57.995Z",
   "matches": [
     {
       "id": "m01",
@@ -824,8 +824,8 @@
       "group": "",
       "home": "Germany",
       "away": "Paraguay",
-      "homeScore": 5,
-      "awayScore": 6,
+      "homeScore": 4,
+      "awayScore": 5,
       "status": "Finished",
       "utc": "2026-06-29T20:30:00Z"
     },
@@ -835,9 +835,9 @@
       "group": "",
       "home": "Netherlands",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-30T01:00:00Z"
     },
     {
