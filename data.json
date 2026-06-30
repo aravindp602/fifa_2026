@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-30T15:04:29.198Z",
+  "updatedAt": "2026-06-30T17:12:31.367Z",
   "matches": [
     {
       "id": "m01",
@@ -846,9 +846,9 @@
       "group": "",
       "home": "Ivory Coast",
       "away": "Norway",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-06-30T17:00:00Z"
     },
     {
