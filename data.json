@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-01T20:13:29.032Z",
+  "updatedAt": "2026-07-01T21:50:19.816Z",
   "matches": [
     {
       "id": "m01",
@@ -890,8 +890,8 @@
       "group": "",
       "home": "Belgium",
       "away": "Senegal",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 2,
       "status": "Live",
       "utc": "2026-07-01T20:00:00Z"
     },
