@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-01T01:58:49.720Z",
+  "updatedAt": "2026-07-01T06:41:46.222Z",
   "matches": [
     {
       "id": "m01",
@@ -868,9 +868,9 @@
       "group": "",
       "home": "Mexico",
       "away": "Ecuador",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-07-01T01:00:00Z"
     },
     {
@@ -1009,7 +1009,7 @@
       "id": "m92",
       "number": 92,
       "group": "",
-      "home": null,
+      "home": "Mexico",
       "away": null,
       "homeScore": null,
       "awayScore": null,
