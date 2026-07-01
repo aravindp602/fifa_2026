@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-01T21:50:19.816Z",
+  "updatedAt": "2026-07-01T22:59:30.550Z",
   "matches": [
     {
       "id": "m01",
@@ -890,9 +890,9 @@
       "group": "",
       "home": "Belgium",
       "away": "Senegal",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 2,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-07-01T20:00:00Z"
     },
     {
@@ -1010,7 +1010,7 @@
       "number": 92,
       "group": "",
       "home": "Mexico",
-      "away": null,
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
@@ -1032,7 +1032,7 @@
       "number": 94,
       "group": "",
       "home": null,
-      "away": null,
+      "away": "Belgium",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
