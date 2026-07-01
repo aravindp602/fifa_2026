@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-01T13:21:05.847Z",
+  "updatedAt": "2026-07-01T16:01:09.855Z",
   "matches": [
     {
       "id": "m01",
@@ -879,9 +879,9 @@
       "group": "",
       "home": "England",
       "away": "Congo DR",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-01T16:00:00Z"
     },
     {
