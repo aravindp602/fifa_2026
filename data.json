@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-06-30T23:48:10.908Z",
+  "updatedAt": "2026-07-01T01:58:49.720Z",
   "matches": [
     {
       "id": "m01",
@@ -868,9 +868,9 @@
       "group": "",
       "home": "Mexico",
       "away": "Ecuador",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-01T01:00:00Z"
     },
     {
