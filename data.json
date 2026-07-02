@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-02T19:59:42.543Z",
+  "updatedAt": "2026-07-02T21:19:00.211Z",
   "matches": [
     {
       "id": "m01",
@@ -912,9 +912,9 @@
       "group": "",
       "home": "Spain",
       "away": "Austria",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-07-02T19:00:00Z"
     },
     {
