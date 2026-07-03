@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-03T22:00:17.199Z",
+  "updatedAt": "2026-07-03T23:14:45.650Z",
   "matches": [
     {
       "id": "m01",
@@ -956,9 +956,9 @@
       "group": "",
       "home": "Argentina",
       "away": "Cape Verde Islands",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-03T22:00:00Z"
     },
     {
