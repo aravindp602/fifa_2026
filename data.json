@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-03T05:03:10.718Z",
+  "updatedAt": "2026-07-03T08:23:27.938Z",
   "matches": [
     {
       "id": "m01",
@@ -1020,8 +1020,8 @@
       "id": "m93",
       "number": 93,
       "group": "",
-      "home": null,
-      "away": null,
+      "home": "Portugal",
+      "away": "Spain",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
@@ -1053,7 +1053,7 @@
       "id": "m96",
       "number": 96,
       "group": "",
-      "home": null,
+      "home": "Switzerland",
       "away": null,
       "homeScore": null,
       "awayScore": null,
