@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-02T23:42:03.354Z",
+  "updatedAt": "2026-07-03T01:18:54.949Z",
   "matches": [
     {
       "id": "m01",
@@ -923,9 +923,9 @@
       "group": "",
       "home": "Portugal",
       "away": "Croatia",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-07-02T23:00:00Z"
     },
     {
