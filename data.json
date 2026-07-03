@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-03T16:54:03.701Z",
+  "updatedAt": "2026-07-03T18:11:45.087Z",
   "matches": [
     {
       "id": "m01",
@@ -945,9 +945,9 @@
       "group": "",
       "home": "Australia",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-03T18:00:00Z"
     },
     {
