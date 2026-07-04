@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-04T01:01:58.512Z",
+  "updatedAt": "2026-07-04T04:46:19.402Z",
   "matches": [
     {
       "id": "m01",
@@ -967,9 +967,9 @@
       "group": "",
       "home": "Colombia",
       "away": "Ghana",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "Finished",
       "utc": "2026-07-04T01:30:00Z"
     },
     {
