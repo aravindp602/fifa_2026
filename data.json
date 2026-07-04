@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-04T19:57:41.662Z",
+  "updatedAt": "2026-07-04T21:07:45.294Z",
   "matches": [
     {
       "id": "m01",
@@ -989,9 +989,9 @@
       "group": "",
       "home": "Paraguay",
       "away": "France",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-04T21:00:00Z"
     },
     {
