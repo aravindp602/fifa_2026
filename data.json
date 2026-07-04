@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-04T04:46:19.402Z",
+  "updatedAt": "2026-07-04T07:32:20.508Z",
   "matches": [
     {
       "id": "m01",
@@ -1042,7 +1042,7 @@
       "id": "m95",
       "number": 95,
       "group": "",
-      "home": null,
+      "home": "Argentina",
       "away": "Egypt",
       "homeScore": null,
       "awayScore": null,
@@ -1054,7 +1054,7 @@
       "number": 96,
       "group": "",
       "home": "Switzerland",
-      "away": null,
+      "away": "Colombia",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
