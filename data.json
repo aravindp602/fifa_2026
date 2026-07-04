@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-04T18:43:03.481Z",
+  "updatedAt": "2026-07-04T19:57:41.662Z",
   "matches": [
     {
       "id": "m01",
@@ -979,8 +979,8 @@
       "home": "Canada",
       "away": "Morocco",
       "homeScore": 0,
-      "awayScore": 1,
-      "status": "Live",
+      "awayScore": 3,
+      "status": "Finished",
       "utc": "2026-07-04T17:00:00Z"
     },
     {
@@ -1065,7 +1065,7 @@
       "number": 97,
       "group": "",
       "home": null,
-      "away": null,
+      "away": "Morocco",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
