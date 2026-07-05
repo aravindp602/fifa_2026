@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-05T21:43:13.427Z",
+  "updatedAt": "2026-07-05T22:42:13.144Z",
   "matches": [
     {
       "id": "m01",
@@ -1000,9 +1000,9 @@
       "group": "",
       "home": "Brazil",
       "away": "Norway",
-      "homeScore": 0,
-      "awayScore": 1,
-      "status": "Live",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "Finished",
       "utc": "2026-07-05T20:00:00Z"
     },
     {
