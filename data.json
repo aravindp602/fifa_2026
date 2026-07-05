@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-05T22:42:13.144Z",
+  "updatedAt": "2026-07-05T23:46:37.873Z",
   "matches": [
     {
       "id": "m01",
@@ -1014,7 +1014,7 @@
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
-      "utc": "2026-07-06T00:00:00Z"
+      "utc": "2026-07-06T01:00:00Z"
     },
     {
       "id": "m93",
