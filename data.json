@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-05T00:15:06.706Z",
+  "updatedAt": "2026-07-05T04:34:25.993Z",
   "matches": [
     {
       "id": "m01",
@@ -1064,7 +1064,7 @@
       "id": "m97",
       "number": 97,
       "group": "",
-      "home": null,
+      "home": "France",
       "away": "Morocco",
       "homeScore": null,
       "awayScore": null,
