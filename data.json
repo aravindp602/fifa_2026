@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-06T01:28:40.505Z",
+  "updatedAt": "2026-07-06T06:07:06.556Z",
   "matches": [
     {
       "id": "m01",
@@ -1011,9 +1011,9 @@
       "group": "",
       "home": "Mexico",
       "away": "England",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "homeScore": 2,
+      "awayScore": 3,
+      "status": "Finished",
       "utc": "2026-07-06T01:00:00Z"
     },
     {
@@ -1086,8 +1086,8 @@
       "id": "m99",
       "number": 99,
       "group": "",
-      "home": null,
-      "away": null,
+      "home": "Norway",
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
