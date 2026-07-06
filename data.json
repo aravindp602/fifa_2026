@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-06T19:18:30.961Z",
+  "updatedAt": "2026-07-06T21:06:07.078Z",
   "matches": [
     {
       "id": "m01",
@@ -1023,8 +1023,8 @@
       "home": "Portugal",
       "away": "Spain",
       "homeScore": 0,
-      "awayScore": 0,
-      "status": "Live",
+      "awayScore": 1,
+      "status": "Finished",
       "utc": "2026-07-06T19:00:00Z"
     },
     {
