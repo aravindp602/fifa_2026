@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-07T01:24:56.679Z",
+  "updatedAt": "2026-07-07T05:38:22.257Z",
   "matches": [
     {
       "id": "m01",
@@ -1034,8 +1034,8 @@
       "home": "USA",
       "away": "Belgium",
       "homeScore": 1,
-      "awayScore": 3,
-      "status": "Live",
+      "awayScore": 4,
+      "status": "Finished",
       "utc": "2026-07-07T00:00:00Z"
     },
     {
@@ -1075,8 +1075,8 @@
       "id": "m98",
       "number": 98,
       "group": "",
-      "home": null,
-      "away": null,
+      "home": "Spain",
+      "away": "Belgium",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
