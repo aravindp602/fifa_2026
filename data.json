@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-07T18:34:54.806Z",
+  "updatedAt": "2026-07-07T20:30:20.955Z",
   "matches": [
     {
       "id": "m01",
@@ -1055,9 +1055,9 @@
       "group": "",
       "home": "Switzerland",
       "away": "Colombia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-07T20:00:00Z"
     },
     {
