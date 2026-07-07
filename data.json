@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-06T23:42:11.184Z",
+  "updatedAt": "2026-07-07T01:24:56.679Z",
   "matches": [
     {
       "id": "m01",
@@ -1033,9 +1033,9 @@
       "group": "",
       "home": "USA",
       "away": "Belgium",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "Live",
       "utc": "2026-07-07T00:00:00Z"
     },
     {
