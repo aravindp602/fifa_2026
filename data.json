@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-07T21:57:11.287Z",
+  "updatedAt": "2026-07-07T23:07:50.703Z",
   "matches": [
     {
       "id": "m01",
@@ -1055,8 +1055,8 @@
       "group": "",
       "home": "Switzerland",
       "away": "Colombia",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 4,
+      "awayScore": 3,
       "status": "Finished",
       "utc": "2026-07-07T20:00:00Z"
     },
@@ -1097,8 +1097,8 @@
       "id": "m100",
       "number": 100,
       "group": "",
-      "home": null,
-      "away": null,
+      "home": "Argentina",
+      "away": "Switzerland",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
