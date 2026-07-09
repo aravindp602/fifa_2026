@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-09T18:31:30.313Z",
+  "updatedAt": "2026-07-09T20:26:43.884Z",
   "matches": [
     {
       "id": "m01",
@@ -1066,9 +1066,9 @@
       "group": "",
       "home": "France",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-09T20:00:00Z"
     },
     {
