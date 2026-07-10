@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-10T17:55:13.185Z",
+  "updatedAt": "2026-07-10T19:28:28.273Z",
   "matches": [
     {
       "id": "m01",
@@ -1077,9 +1077,9 @@
       "group": "",
       "home": "Spain",
       "away": "Belgium",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "Scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "Live",
       "utc": "2026-07-10T19:00:00Z"
     },
     {
