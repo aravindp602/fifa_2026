@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-10T21:51:22.394Z",
+  "updatedAt": "2026-07-10T22:51:40.145Z",
   "matches": [
     {
       "id": "m01",
@@ -1109,7 +1109,7 @@
       "number": 101,
       "group": "",
       "home": "France",
-      "away": null,
+      "away": "Spain",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
