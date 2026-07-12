@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-11T23:12:06.099Z",
+  "updatedAt": "2026-07-12T00:11:55.411Z",
   "matches": [
     {
       "id": "m01",
@@ -1090,7 +1090,7 @@
       "away": "England",
       "homeScore": 1,
       "awayScore": 2,
-      "status": "Live",
+      "status": "Finished",
       "utc": "2026-07-11T21:00:00Z"
     },
     {
