@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-12T03:59:39.752Z",
+  "updatedAt": "2026-07-12T06:42:45.398Z",
   "matches": [
     {
       "id": "m01",
@@ -1119,8 +1119,8 @@
       "id": "m102",
       "number": 102,
       "group": "",
-      "home": null,
-      "away": null,
+      "home": "England",
+      "away": "Argentina",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
