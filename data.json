@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-15T20:33:17.921Z",
+  "updatedAt": "2026-07-15T21:33:45.594Z",
   "matches": [
     {
       "id": "m01",
@@ -1122,8 +1122,8 @@
       "home": "England",
       "away": "Argentina",
       "homeScore": 1,
-      "awayScore": 0,
-      "status": "Live",
+      "awayScore": 2,
+      "status": "Finished",
       "utc": "2026-07-15T19:00:00Z"
     },
     {
@@ -1131,7 +1131,7 @@
       "number": 103,
       "group": "",
       "home": "France",
-      "away": null,
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
@@ -1142,7 +1142,7 @@
       "number": 104,
       "group": "",
       "home": "Spain",
-      "away": null,
+      "away": "Argentina",
       "homeScore": null,
       "awayScore": null,
       "status": "Scheduled",
