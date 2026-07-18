@@ -2,7 +2,7 @@
   "connected": true,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
-  "updatedAt": "2026-07-18T22:12:35.347Z",
+  "updatedAt": "2026-07-18T23:12:33.409Z",
   "matches": [
     {
       "id": "m01",
@@ -1132,9 +1132,9 @@
       "group": "",
       "home": "France",
       "away": "England",
-      "homeScore": 1,
-      "awayScore": 4,
-      "status": "Live",
+      "homeScore": 4,
+      "awayScore": 6,
+      "status": "Finished",
       "utc": "2026-07-18T21:00:00Z"
     },
     {
