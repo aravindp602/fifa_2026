@@ -1,5 +1,5 @@
 {
-  "connected": true,
+  "connected": False,
   "source": "Official Data (via Reference Worker)",
   "sourceUrl": "https://www.football-data.org/",
   "updatedAt": "2026-10-17T17:58:47.224Z",
